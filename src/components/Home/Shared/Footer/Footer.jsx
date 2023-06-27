@@ -161,7 +161,7 @@ const Footer = () => {
                         </a>
                     </li>
                     </ul> */}
-                    <p className="flex justify-center mt-6">© All rights reserved by <a className="mx-1 text-teal-500" href="https://wpriverthemes.com/gridx/"> GridX</a></p>
+                    <p className="flex justify-center mt-6">© All rights reserved by <a className="mx-1 text-teal-500" href="https://wpriverthemes.com/gridx/" target="_blank" rel="noopener noreferrer">GridX</a></p>
                 </div>
             </footer>
         </div>
