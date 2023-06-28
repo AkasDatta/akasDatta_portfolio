@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { HiArrowCircleDown } from "react-icons/hi";
-
+import resumePdf from '../../../../assets/AkasDatta_resume.pdf';
 
 const navigation = [
   { name: 'Home', href: '#' },
@@ -12,9 +12,17 @@ const navigation = [
 ]
 
 const Navbar = () => {
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = resumePdf;
+    link.download = 'akasDatta_resume.pdf';
+    link.click();
+  };
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-    <div className="bg-black">
+    <div className="bg-[#0F0F0F]">
       <header className="inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -40,9 +48,10 @@ const Navbar = () => {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <button href="#" className="text-sm font-semibold leading-6 text-gray-300 btn btn-outline rounded-lg px-10">
-              Resume <HiArrowCircleDown></HiArrowCircleDown>
-            </button>
+          <button onClick={handleDownload} className="text-sm font-semibold leading-6 text-gray-300 btn btn-outline rounded-lg px-10">
+            Resume <HiArrowCircleDown />
+          </button>
+
           </div>
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -75,12 +84,9 @@ const Navbar = () => {
                   ))}
                 </div>
                 <div className="py-6">
-                  <a
-                    href="#"
-                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                  >
-                    Log in
-                  </a>
+                    <button onClick={handleDownload} className="text-sm font-semibold leading-6 text-gray-300 btn btn-outline rounded-lg px-10">
+                    Resume <HiArrowCircleDown />
+                  </button>
                 </div>
               </div>
             </div>
