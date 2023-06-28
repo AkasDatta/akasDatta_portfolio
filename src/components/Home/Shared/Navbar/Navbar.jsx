@@ -1,83 +1,92 @@
-import React, { useState } from 'react';
+import { useState } from 'react'
+import { Dialog } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { HiArrowCircleDown } from "react-icons/hi";
+
+
+const navigation = [
+  { name: 'Home', href: '#' },
+  { name: 'About', href: '#' },
+  { name: 'Works', href: '#' },
+  { name: 'Contact', href: '#' },
+]
 
 const Navbar = () => {
-  const [activeOption, setActiveOption] = useState('');
-
-  const handleOptionClick = (option) => {
-    setActiveOption(option);
-  };
-
-  const navOptions = [
-    { label: 'Home', path: '#' },
-    { label: 'About', path: '#' },
-    { label: 'Works', path: '#' },
-    { label: 'Contact', path: '#' },
-  ];
-
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-    <div>
-      <div className="navbar bg-black">
-        <div className="navbar-start">
-          <div className="dropdown">
-            <label tabIndex={0} className="btn lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />
-              </svg>
-            </label>
-            <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              {navOptions.map((option, index) => (
-                <li key={index}>
-                  <a
-                    href={option.path}
-                    className={`${
-                      activeOption === option.label ? 'text-white' : ''
-                    }`}
-                    onMouseEnter={() => handleOptionClick(option.label)}
-                    onMouseLeave={() => handleOptionClick('')}
-                    onClick={() => handleOptionClick(option.label)}
-                  >
-                    {option.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
+    <div className="bg-black">
+      <header className="inset-x-0 top-0 z-50">
+        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+          <div className="flex lg:flex-1">
+            <a href="#" className="-m-1.5 p-1.5">
+              <h2 className="font-bold text-white text-4xl">Akas Datta</h2>
+            </a>
           </div>
-          <a className="btn btn-ghost normal-case text-2xl text-white">Akas Datta</a>
-        </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            {navOptions.map((option, index) => (
-              <li key={index}>
-                <a
-                  href={option.path}
-                  className={`${
-                    activeOption === option.label ? 'text-white' : ''
-                  }`}
-                  onMouseEnter={() => handleOptionClick(option.label)}
-                  onMouseLeave={() => handleOptionClick('')}
-                  onClick={() => handleOptionClick(option.label)}
-                >
-                  {option.label}
-                </a>
-              </li>
+          <div className="flex lg:hidden">
+            <button
+              type="button"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-300"
+              onClick={() => setMobileMenuOpen(true)}
+            >
+              <span className="sr-only">Open main menu</span>
+              <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+            </button>
+          </div>
+          <div className="hidden lg:flex lg:gap-x-12 bg-black">
+            {navigation.map((item) => (
+              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 text-xl">
+                {item.name}
+              </a>
             ))}
-          </ul>
-        </div>
-        <div className="navbar-end">
-          <a className="btn">Button</a>
-        </div>
-      </div>
+          </div>
+          <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+            <button href="#" className="text-sm font-semibold leading-6 text-gray-300 btn btn-outline rounded-lg px-10">
+              Resume <HiArrowCircleDown></HiArrowCircleDown>
+            </button>
+          </div>
+        </nav>
+        <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
+          <div className="fixed inset-0 z-50" />
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-black text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+            <div className="flex items-center justify-between">
+              <a href="#" className="-m-1.5 p-1.5">
+               
+              </a>
+              <button
+                type="button"
+                className="-m-2.5 rounded-md p-2.5 text-gray-300"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                <span className="sr-only">Close menu</span>
+                <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+              </button>
+            </div>
+            <div className="mt-6 flow-root">
+              <div className="-my-6 divide-y divide-gray-500/10">
+                <div className="space-y-2 py-6">
+                  {navigation.map((item) => (
+                    <a
+                      key={item.name}
+                      href={item.href}
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 hover:bg-gray-900"
+                    >
+                      {item.name}
+                    </a>
+                  ))}
+                </div>
+                <div className="py-6">
+                  <a
+                    href="#"
+                    className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                  >
+                    Log in
+                  </a>
+                </div>
+              </div>
+            </div>
+          </Dialog.Panel>
+        </Dialog>
+      </header>
     </div>
   );
 };
