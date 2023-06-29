@@ -60,7 +60,7 @@ const Banner = () => {
             />
             <div className="flex flex-col justify-between p-4 leading-normal">
               <h5 className="mb-2 mx-1 tracking-tight text-gray-900 dark:text-gray-400">HI, I'm</h5>
-              <h5 className="mb-2 text-5xl font-bold tracking-tight text-gray-900 text-teal-600  dark:text-teal-300">
+              <h5 className="mb-2 text-5xl font-bold tracking-tight text-gray-600  dark:text-gray-300">
                   AKAS DATTA.
               </h5>
               <h5 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white"><span className="autoType" ref={autoTypeRef}></span></h5>
@@ -139,7 +139,7 @@ const Banner = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="card py-8">
+            <div className="card pt-8">
               <div className="card-body bg-[#161616] rounded-3xl">
                 <img className="mb-5" src={aboutMe} alt="" />
                 <h5 className="card-title">MORE ABOUT ME</h5>
@@ -147,7 +147,7 @@ const Banner = () => {
               </div>
             </div>
 
-            <div className="card py-8">
+            <div className="card pt-8">
               <div className="card-body bg-[#161616] rounded-3xl">
                 <img className="mb-5 rounded-2xl" src={aboutMe2} alt="" />
                 <h5 className="card-title">SHOWCASE</h5>
@@ -157,7 +157,6 @@ const Banner = () => {
           </div>
         </div>
       </div>
-
       </div>
     );
   };
