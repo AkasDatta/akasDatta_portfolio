@@ -48,10 +48,9 @@ const Banner = () => {
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
         <div className="card">
           <div className="card-body">
-          <div className="card">
             <a
             href="#"
-            className="flex p-12 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
+            className="flex px-10 pt-5 pb-3 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
           >
             <img
               className="object-cover w-full h-112 md:h-auto md:w-56 rounded-br-3xl rounded-tl-3xl"
@@ -59,20 +58,20 @@ const Banner = () => {
               alt=""
             />
             <div className="flex flex-col justify-between p-4 leading-normal">
-              <h5 className="mb-2 mx-1 tracking-tight text-gray-900 dark:text-gray-400">HI, I'm</h5>
+              <h5 className="mb-2 mx-1 tracking-tight text-gray-900 dark:text-gray-400 mt-5">HI, I'm</h5>
               <h5 className="mb-2 text-5xl font-bold tracking-tight text-gray-600  dark:text-gray-300">
                   AKAS DATTA.
               </h5>
               <h5 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white"><span className="autoType" ref={autoTypeRef}></span></h5>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              based in Feni, Bangladesh. 
+              based in Feni, Bangladesh. <br />
+              <span>I have a strong passion for creating engaging and user-friendly web experiences.</span>
               </p>
               <div className="card-actions">
                 <button className="btn btn-outline">Hire Me</button>
               </div>
             </div>
           </a>
-          </div>
           </div>
         </div>
 
@@ -139,7 +138,7 @@ const Banner = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="card pt-8">
+            <div className="card pt-6">
               <div className="card-body bg-[#161616] rounded-3xl">
                 <img className="mb-5" src={aboutMe} alt="" />
                 <h5 className="card-title">MORE ABOUT ME</h5>
@@ -147,7 +146,7 @@ const Banner = () => {
               </div>
             </div>
 
-            <div className="card pt-8">
+            <div className="card pt-6">
               <div className="card-body bg-[#161616] rounded-3xl">
                 <img className="mb-5 rounded-2xl" src={aboutMe2} alt="" />
                 <h5 className="card-title">SHOWCASE</h5>
