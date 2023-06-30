@@ -2,6 +2,7 @@ import About from "./About/About";
 import Banner from "./Banner/Banner";
 import LastBanner from "./LastBanner/LastBanner";
 import MiddleBanner from "./MiddleBanner/MiddleBanner";
+import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <LastBanner></LastBanner>
             <About></About>
             <Skills></Skills>
+            <Projects></Projects>
         </div>
     );
 };

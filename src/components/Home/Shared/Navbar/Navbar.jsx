@@ -5,10 +5,10 @@ import { HiArrowCircleDown } from "react-icons/hi";
 import resumePdf from '../../../../assets/AkasDatta_resume.pdf';
 
 const navigation = [
-  { name: 'Home', href: '#' },
-  { name: 'About', href: '#' },
-  { name: 'Works', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/' },
+  { name: 'Works', href: '/' },
+  { name: 'Contact', href: '/' },
 ]
 
 const Navbar = () => {

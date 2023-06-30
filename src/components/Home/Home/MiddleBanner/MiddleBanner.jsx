@@ -6,7 +6,7 @@ import { FaLaptopCode, FaConnectdevelop, FaLinkedin, FaInstagram, FaTwitter } fr
 const MiddleBanner = () => {
     return (
         <div className="grid grid-cols-12 gap-6 px-8">
-            <a href="#" className="col-span-12 md:col-span-6 lg:col-span-3">
+            <a href="/blogs" className="col-span-12 md:col-span-6 lg:col-span-3">
                 <div className="card">
                     <div className="card-body bg-[#161616] rounded-3xl">
                         <img className="mx-auto px-3 object-cover w-full h-0 md:h-auto md:w-40" src={aboutMe} alt="" />
