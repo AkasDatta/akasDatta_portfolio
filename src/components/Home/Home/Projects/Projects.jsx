@@ -2,12 +2,14 @@ import project1 from "../../../../assets/project1.png";
 import project2 from "../../../../assets/project2.png";
 import project3 from "../../../../assets/project3.png";
 import './Projects.css';
+import { FaGithub, FaLink } from 'react-icons/fa';
+
 
 const Projects = () => {
   return (
     <div className="container">
         <h1 className="font-bold text-3xl p-8 text-sky-700">MY LATEST PROJECTS</h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-3 sm:grid-cols-1 sm:justify-center gap-4 p-8 mb-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:justify-center gap-4 p-8 mb-10">
           <div className="pt-0">
             <div className="">
               <div>
@@ -18,10 +20,15 @@ const Projects = () => {
                         Technology Behind the project
                     </p>
                         <p>
-                            react.js | firebase | react-bootstrap | aos package | express.js | mongodb | cors | vercel | so many react package 
+                            react.js | firebase | react-bootstrap | express.js | mongodb | vercel
                         </p>
                         <p>
                             <b>Description:</b> ToyVerse is an interactive inventory management website. Users can explore and add toys by category, view their own added toys, and store them in a database sorted by descending order.
+                        </p>
+                        <p className="flex gap-4 text-3xl mt-3">
+                            <a href="https://github.com/AkasDatta/Toy-marketplace-Client"><FaGithub></FaGithub></a>
+                            <a href="https://github.com/AkasDatta/Toy-marketplace-Server"><FaGithub></FaGithub></a>
+                            <a href="https://toy-marketplace-f6b89.web.app/"><FaLink></FaLink></a>
                         </p>
                   </div>
                 </div>
@@ -53,10 +60,15 @@ const Projects = () => {
                         Technology Behind the project
                     </p>
                         <p>
-                            react.js | firebase | react-bootstrap | react-icons | react-to-pdf | react-rating  | express.js | cors | vercel | so many react package 
+                            react.js | firebase | react-bootstrap | express.js | vercel 
                         </p>
                         <p>
                             <b>Description:</b> Foodiee _ is a captivating recipe exploration website that showcases the culinary prowess of renowned chefs from around the globe. Immerse yourself in a world of gastronomic delight as you discover a treasure trove of exquisite recipes. Enhance the platform by contributing and adding talented chefs, creating a vibrant community passionate about the art of cooking. Delve into this culinary haven and unlock a universe of flavors and culinary inspiration.
+                        </p>
+                        <p className="flex gap-4 text-3xl mt-3">
+                            <a href="https://github.com/AkasDatta/Chef-recipe-hunter-Client"><FaGithub></FaGithub></a>
+                            <a href="https://github.com/AkasDatta/Chef-recipe-hunter-Server"><FaGithub></FaGithub></a>
+                            <a href="https://chef-recipe-hunter-1a993.web.app/"><FaLink></FaLink></a>
                         </p>
                   </div>
                 </div>
@@ -66,7 +78,7 @@ const Projects = () => {
         </div>
 
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-3 sm:grid-cols-1 sm:justify-center gap-4 p-8 mb-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:justify-center gap-4 px-8 pt-8">
           <div className="pt-0">
             <div className="">
               <div>
@@ -77,10 +89,14 @@ const Projects = () => {
                         Technology Behind the project
                     </p>
                         <p>
-                            react.js | react-bootstrap | React Router | React Icons | React-hot-toast | Recharts | so many react package 
+                            react.js | react-bootstrap | React Router | React-hot-toast | Recharts 
                         </p>
                         <p>
                             <b>Description:</b> Chakri-Opportunities is a dynamic job portal providing a diverse range of job opportunities, along with personalized features for a seamless job search experience. Explore, apply, and elevate your career with Chakri-Opportunities.
+                        </p>
+                        <p className="flex gap-4 text-3xl mt-3">
+                            <a href="https://github.com/AkasDatta/Chakri-Opportunities"><FaGithub></FaGithub></a>
+                            <a href="https://moonlit-trifle-78401a.netlify.app/"><FaLink></FaLink></a>
                         </p>
                   </div>
                 </div>
