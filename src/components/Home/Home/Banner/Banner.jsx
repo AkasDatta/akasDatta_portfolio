@@ -44,7 +44,7 @@ const Banner = () => {
 
 
     return (
-      <div className="mt-20">
+      <div className="mt-12">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
         <div className="card">
           <div className="card-body">
