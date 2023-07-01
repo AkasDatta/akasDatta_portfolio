@@ -1,9 +1,6 @@
 .container {
     padding: 80px 0;
 }
-.content {
-    position: relative;
-}
 
 .screen {
 	display: block;
@@ -34,6 +31,7 @@
   -o-transition: all 7s;
   transition: all 7s;
 }
+  
  
 @media (min-width: 768px) {
     .screen {
