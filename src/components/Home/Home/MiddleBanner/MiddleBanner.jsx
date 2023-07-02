@@ -39,30 +39,30 @@ const MiddleBanner = () => {
                     </div>
                 </div>
             </div>
-      <div className="col-span-12 md:col-span-12 lg:col-span-3 pb-7">
-    <div className="card ">
-        <div className="card-body bg-[#161616] rounded-3xl">
-            <div className="rounded-3xl border border-[#262626]">
-            <div className="flex gap-4 justify-center items-center">
-                <a href="https://www.linkedin.com/in/akasdatta/" target="_blank" className="py-8 text-4xl text-[#0A66C2]">
-                    <FaLinkedin></FaLinkedin>
-                </a>
-                <a href="https://www.instagram.com/stories/_akash_datta/3136387846827874196/" target="_blank" className="py-8 text-4xl text-[#DA4F48]">
-                    <FaInstagram></FaInstagram>
-                </a>
-                <a href="https://twitter.com/DattaAkas" target="_blank" className="py-9 text-4xl text-[#1C9CEA]">
-                    <FaTwitter></FaTwitter>
-                </a>
-            </div>
+        <div className="col-span-12 md:col-span-12 lg:col-span-3 pb-7">
+                <div className="card ">
+                    <div className="card-body bg-[#161616] rounded-3xl">
+                        <div className="rounded-3xl border border-[#262626]">
+                        <div className="flex gap-4 justify-center items-center">
+                            <a href="https://www.linkedin.com/in/akasdatta/" target="_blank" className="py-8 text-4xl text-[#0A66C2]">
+                                <FaLinkedin></FaLinkedin>
+                            </a>
+                            <a href="https://www.instagram.com/stories/_akash_datta/3136387846827874196/" target="_blank" className="py-8 text-4xl text-[#DA4F48]">
+                                <FaInstagram></FaInstagram>
+                            </a>
+                            <a href="https://twitter.com/DattaAkas" target="_blank" className="py-9 text-4xl text-[#1C9CEA]">
+                                <FaTwitter></FaTwitter>
+                            </a>
+                        </div>
 
+                        </div>
+                        <div className="mt-6">
+                            <h5 className="text-sm">STAY WITH ME</h5>
+                            <h1 className="card-title text-white text-3xl">Profiles</h1>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="mt-6">
-                <h5 className="text-sm">STAY WITH ME</h5>
-                <h1 className="card-title text-white text-3xl">Profiles</h1>
-            </div>
-        </div>
-    </div>
-</div>
 
         </div>
     );
