@@ -1,0 +1,9 @@
+.btn {
+    background-color: #272727;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #272727;
+}
