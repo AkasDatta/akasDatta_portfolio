@@ -23,11 +23,11 @@ const LastBanner = () => {
                 </div>
 
                 <div className="card pt-0">
-                    <div className="card-body bg-[#161616] rounded-3xl">
+                    <a href="#contact" className="card-body bg-[#161616] rounded-3xl">
                         <img className=" rounded-3xl object-cover w-full h-0 md:h-auto md:w-52" src={image} alt="" />
                         <h2 className="text-4xl card-title">Let's</h2>
                         <h2 className="text-4xl card-title">work <span className="text-sky-700">Together</span></h2>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

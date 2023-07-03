@@ -49,7 +49,7 @@ const Banner = () => {
         <div className="card">
           <div className="card-body">
             <a
-            href="#"
+            href="#about"
             className="flex px-10 pt-5 pb-3 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
           >
             <img
