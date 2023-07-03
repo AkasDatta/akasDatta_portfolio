@@ -7,9 +7,10 @@ import { FaGithub, FaLink } from 'react-icons/fa';
 
 const Projects = () => {
   return (
-    <div className="container">
-        <h1 className="font-bold text-3xl p-8 text-sky-700">MY LATEST PROJECTS</h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:justify-center gap-4 p-8 mb-10">
+    <div id="projects">
+      <div className="container">
+        <h1 className="font-bold text-3xl px-8 pb-4 text-sky-700">MY LATEST PROJECTS</h1>
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:justify-center gap-4 px-8 mb-10">
           <div className="pt-0">
             <div className="">
               <div>
@@ -110,6 +111,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
+      </div>
     </div>
   );
 };

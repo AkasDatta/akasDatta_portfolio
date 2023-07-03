@@ -5,8 +5,8 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <div>
-            <h5 className="card-title font-bold text-3xl mb-4 px-8">CONTACT INFO</h5>
+        <div id='contact'>
+            <h5 className="card-title font-bold text-3xl mb-4 p-8">CONTACT INFO</h5>
             <div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 gap-4">
             <div className="card pt-6">
               <div className="card-body rounded-3xl">

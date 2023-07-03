@@ -1,7 +1,7 @@
 
 const About = () => {
     return (
-        <div>
+        <div id="about">
             <div className="p-8">
             <div className="card pt-6">
               <div className="card-body bg-[#161616] rounded-3xl">

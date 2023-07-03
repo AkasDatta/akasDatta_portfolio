@@ -67,9 +67,9 @@ const Banner = () => {
               based in Feni, Bangladesh. <br />
               <span>I have a strong passion for creating engaging and user-friendly web experiences.</span>
               </p>
-              <div className="card-actions">
+              <a href="#contact" className="card-actions">
                 <button className="btn btn-outline">Hire Me</button>
-              </div>
+              </a>
             </div>
           </a>
           </div>
@@ -138,21 +138,21 @@ const Banner = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="card pt-6">
+            <a href="#about" className="card pt-6">
               <div className="card-body bg-[#161616] rounded-3xl">
                 <img className="mb-5" src={aboutMe} alt="" />
                 <h5 className="card-title">MORE ABOUT ME</h5>
                 <p>Credentials</p>
               </div>
-            </div>
+            </a>
 
-            <div className="card pt-6">
+            <a href="#projects" className="card pt-6">
               <div className="card-body bg-[#161616] rounded-3xl">
                 <img className="mb-5 rounded-2xl" src={aboutMe2} alt="" />
                 <h5 className="card-title">SHOWCASE</h5>
                 <p>Projects</p>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

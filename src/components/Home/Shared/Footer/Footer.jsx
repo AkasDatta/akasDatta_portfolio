@@ -4,7 +4,7 @@ const Footer = () => {
         <div>
             <footer className="bg-black-800">
                 <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-                    <div className="flex justify-center text-teal-600 dark:text-teal-300 text-4xl">
+                    <div className="flex justify-center text-white font-bold text-4xl">
                         Akas Datta
                     </div>
 
@@ -14,6 +14,15 @@ const Footer = () => {
                         className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
                         href="/"
                         >
+                        Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                        className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                        href="#about"
+                        >
                         About
                         </a>
                     </li>
@@ -21,27 +30,18 @@ const Footer = () => {
                     <li>
                         <a
                         className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                        href="/"
-                        >
-                        Careers
-                        </a>
-                    </li>
-
-                    <li>
-                        <a
-                        className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                        href="/"
-                        >
-                        History
-                        </a>
-                    </li>
-
-                    <li>
-                        <a
-                        className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
-                        href="/"
+                        href="#projects"
                         >
                         Projects
+                        </a>
+                    </li>
+
+                    <li>
+                        <a
+                        className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                        href="#contact"
+                        >
+                        Contact
                         </a>
                     </li>
 
@@ -161,7 +161,7 @@ const Footer = () => {
                         </a>
                     </li>
                     </ul> */}
-                    <p className="flex justify-center mt-6">© All rights reserved by <a className="mx-1 text-teal-500" href="https://wpriverthemes.com/gridx/" target="_blank" rel="noopener noreferrer">GridX</a></p>
+                    <p className="flex justify-center mt-6">© Inspired by <a className="mx-1 text-teal-500" href="https://wpriverthemes.com/gridx/" target="_blank" rel="noopener noreferrer">GridX</a></p>
                 </div>
             </footer>
         </div>
