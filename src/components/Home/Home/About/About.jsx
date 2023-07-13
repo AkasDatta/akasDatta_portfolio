@@ -3,7 +3,7 @@ const About = () => {
     return (
         <div id="about">
             <div className="p-8">
-            <div className="card pt-6">
+            <div className="card">
               <div className="card-body bg-[#161616] rounded-3xl">
                 <h5 className="card-title text-sky-700 font-bold text-3xl mb-4 px-8">MORE ABOUT ME</h5>
                 <p className="mb-5 px-8 text-white">

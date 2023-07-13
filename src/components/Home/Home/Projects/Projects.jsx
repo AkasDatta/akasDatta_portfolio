@@ -9,12 +9,9 @@ const Projects = () => {
   return (
     <div id="projects">
       <div className="container">
-        <h1 className="font-bold text-3xl px-8 pb-4 text-sky-700">MY LATEST PROJECTS</h1>
-        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:justify-center gap-4 px-8 mb-10">
+        <h1 className="font-bold text-3xl px-8 pb-8">MY LATEST PROJECTS</h1>
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:justify-center gap-4 px-8">
           <div className="pt-0">
-            <div className="">
-              <div>
-                <div className="">
                   <div className="card-body">
                     <p className="card-title text-3xl mb-2">ToyVerse</p>
                     <p className="text-sm font-bold mb-0">
@@ -32,9 +29,6 @@ const Projects = () => {
                             <a href="https://toy-marketplace-f6b89.web.app/"><FaLink></FaLink></a>
                         </p>
                   </div>
-                </div>
-              </div>
-            </div>
           </div>
 
           <div className="screen">
@@ -45,16 +39,13 @@ const Projects = () => {
         </div>
 
 
-        <div className="grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:justify-center gap-4 px-8">
+        <div className="grid grid-cols-3 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:justify-center gap-4 px-8 pt-8">
         <div className="screen">
             <div className="screen-container">
               <img className="screen-image object-cover" src={project2} alt="" />
             </div>
           </div>
           <div className="pt-0">
-            <div className="">
-              <div>
-                <div className="">
                   <div className="card-body">
                     <p className="card-title text-3xl mb-2">Foodiee _</p>
                     <p className="text-sm font-bold mb-0">
@@ -73,17 +64,12 @@ const Projects = () => {
                         </p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
         </div>
 
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:justify-center gap-4 px-8 pt-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 sm:justify-center gap-4 px-8">
           <div className="pt-0">
-            <div className="">
-              <div>
-                <div className="">
+            <div>
                   <div className="card-body">
                     <p className="card-title text-3xl mb-2">Chakri Opportunities</p>
                     <p className="text-sm font-bold mb-0">
@@ -111,8 +97,6 @@ const Projects = () => {
             </div>
           </div>
         </div>
-      </div>
-    </div>
   );
 };
 

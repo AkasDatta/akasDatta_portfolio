@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { HiArrowCircleDown } from "react-icons/hi";
+import { MdDownloadForOffline } from "react-icons/md";
 import resumePdf from '../../../../assets/AkasDatta_resume.pdf';
 
 const navigation = [
@@ -49,7 +49,7 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <button onClick={handleDownload} className="text-sm font-semibold leading-6 text-gray-300 btn btn-outline rounded-lg px-10">
-            Resume <HiArrowCircleDown />
+            Resume <MdDownloadForOffline/>
           </button>
 
           </div>
@@ -85,7 +85,7 @@ const Navbar = () => {
                 </div>
                 <div className="py-6">
                     <button onClick={handleDownload} className="text-sm font-semibold leading-6 text-gray-300 btn btn-outline rounded-lg px-10">
-                    Resume <HiArrowCircleDown />
+                    Resume <MdDownloadForOffline/>
                   </button>
                 </div>
               </div>

@@ -1,8 +1,8 @@
 
 const Skills = () => {
     return (
-        <div className="pt-8 px-8">
-            <h1 className="font-bold text-3xl ">SKILLS</h1>
+        <div className="pt-20 px-8">
+            <h1 className="font-bold text-3xl text-sky-700 ">SKILLS</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 gap-4">
                 <div className="card pt-6">
                     <div className="card-body bg-[#161616] rounded-3xl text-center">
