@@ -1,7 +1,9 @@
+import { TfiAngleDoubleRight } from "react-icons/tfi";
 import image from "../../../../assets/image.png"
+
 const LastBanner = () => {
     return (
-        <div className="">
+        <div data-aos="zoom-in" data-aos-duration="1000">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-8">
                 <div className="card pt-0">
                     <div className="card-body bg-[#161616] rounded-3xl">
@@ -24,9 +26,16 @@ const LastBanner = () => {
 
                 <div className="card pt-0">
                     <a href="#contact" className="card-body bg-[#161616] rounded-3xl">
-                        <img className=" rounded-3xl object-cover w-full h-0 md:h-auto md:w-52" src={image} alt="" />
-                        <h2 className="text-4xl card-title">Let's</h2>
-                        <h2 className="text-4xl card-title">work <span className="text-sky-700">Together</span></h2>
+                        <div className="grid grid-cols-2">
+                            <div>
+                                <img className=" rounded-3xl object-cover w-full h-0 md:h-auto md:w-52 mb-10" src={image} alt="" />
+                                <h2 className="text-4xl card-title">Let's</h2>
+                                <h2 className="text-4xl card-title">work <span className="text-sky-700">Together</span></h2>
+                            </div>
+                            <div className="flex justify-end">
+                                <TfiAngleDoubleRight className="mt-40 text-3xl mx-10 transition-colors text-[#161616]hover:text-[#fff]"></TfiAngleDoubleRight>
+                            </div>
+                        </div>
                     </a>
                 </div>
             </div>

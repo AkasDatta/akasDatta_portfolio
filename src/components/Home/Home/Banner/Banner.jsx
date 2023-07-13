@@ -72,7 +72,7 @@ const Banner = () => {
           </div>
           </div>
         </div> */}
-        <div className="card">
+        <div data-aos="zoom-in" data-aos-duration="1000" className="card">
           <div className="card-body">
             <a
             href="#about"
@@ -104,7 +104,7 @@ const Banner = () => {
 
         <div className="card p-8">
 
-          <div className="card-body bg-[#161616] rounded-3xl">
+          <div className="card-body bg-[#161616] rounded-3xl" data-aos="zoom-in" data-aos-duration="1200">
             <Marquee>
               <div>
                 <img className="object-cover h-10 w-15 mx-4" src={img1} alt="" />
@@ -163,7 +163,7 @@ const Banner = () => {
             </Marquee>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div data-aos="zoom-in" data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <a href="#about" className="card pt-6">
               <div className="card-body bg-[#161616] rounded-3xl">
                 <img className="mb-5" src={aboutMe} alt="" />

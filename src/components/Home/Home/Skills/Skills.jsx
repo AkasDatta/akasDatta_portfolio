@@ -1,7 +1,7 @@
 
 const Skills = () => {
     return (
-        <div className="pt-20 px-8">
+        <div className="pt-20 px-8" data-aos="zoom-in" data-aos-duration="1000">
             <h1 className="font-bold text-3xl text-sky-700 ">SKILLS</h1>
             <div className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 gap-4">
                 <div className="card pt-6">
