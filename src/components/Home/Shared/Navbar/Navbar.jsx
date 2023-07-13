@@ -22,7 +22,7 @@ const Navbar = () => {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-    <div className="bg-[#0F0F0F]">
+    <div className="">
       <header className="inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -40,7 +40,7 @@ const Navbar = () => {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12 bg-black">
+          <div className="hidden lg:flex lg:gap-x-12 bg-[#0F0F0F]">
             {navigation.map((item) => (
               <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 text-xl">
                 {item.name}
