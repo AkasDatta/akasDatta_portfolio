@@ -35,16 +35,17 @@ export const Contact = () => {
                                 </div>
                             </div>
                             <div className="col-span-3">
-                                <h5 className="text-lg">MAIL ME</h5>
+                                <h5 className="sm:text-sm md:text-md lg:text-lg">MAIL ME</h5>
                                 <p className="font-bold">akasdatta.me@gmail.com</p>
                                 <p className="font-bold">012akasdatta@gmail.com</p>
                             </div>
                         </div>
                         <div className="grid grid-cols-5 card-body rounded-3xl">
                             <div className="col-span-1 rounded-3xl flex items-center justify-center">
-                                <div className="p-6 rounded-xl  bg-[#161616]">
-                                    <FiPhone className=" text-4xl"></FiPhone>
-                                </div>
+                            <div className="p-6 rounded-xl bg-[#161616]">
+                                <FiPhone className="text-4xl sm:mx-10"></FiPhone>
+                            </div>
+
                             </div>
                             <div className="col-span-3">
                                 <h5 className="text-lg mb-4">CONTACT ME</h5>
@@ -67,13 +68,13 @@ export const Contact = () => {
               </div>
             </div>
 
-            <div className="card pt-6" data-aos="zoom-in" data-aos-duration="1500">
+            <div className="card pt-6 sm:p-10 md:p-10" data-aos="zoom-in" data-aos-duration="1500">
                 <div className="card-body bg-[#161616] rounded-3xl">
                     <div className="card pt-0">
                         <div className="card-body bg-[#161616] rounded-3xl">
                             <div className='grid grid-cols-4'>
-                                <h2 className="text-4xl card-title col-span-3">Let's work <span className="text-sky-700">Together</span></h2>
-                                <img className="object-cover rounded-3xl w-full h-auto md:w-52 col-span-1" src={image} alt="" />
+                                <h1 className="text-4xl card-title col-span-3 text-sky-700">Let's work Together <span className="text-sky-700"></span></h1>
+                                <img className="object-cover rounded-3xl w-full h-auto md:w-56 col-span-1" src={image} alt="" />
                             </div>
                         </div>
                     </div>

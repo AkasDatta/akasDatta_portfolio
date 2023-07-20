@@ -45,7 +45,7 @@ const Banner = () => {
 
     return (
       <div className="mt-12">
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-8 gap-4">
         {/* <div className="card">
           <div className="card-body">
             <div className="flex px-10 pt-5 pb-3 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
@@ -73,7 +73,7 @@ const Banner = () => {
           </div>
         </div> */}
         <div data-aos="zoom-in" data-aos-duration="1000" className="card">
-          <div className="card-body">
+          <div className="card-body px-0">
             <a
             href="#about"
             className="flex px-10 pt-5 pb-3 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
@@ -102,7 +102,7 @@ const Banner = () => {
         </div>
 
 
-        <div className="card p-8">
+        <div className="card py-0 pb-8 md:pt-0 lg:pt-8 ">
 
           <div className="card-body bg-[#161616] rounded-3xl" data-aos="zoom-in" data-aos-duration="1200">
             <Marquee>

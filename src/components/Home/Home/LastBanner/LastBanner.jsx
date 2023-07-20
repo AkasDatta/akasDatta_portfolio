@@ -7,11 +7,11 @@ const LastBanner = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 px-8">
                 <div className="card pt-0">
                     <div className="card-body bg-[#161616] rounded-3xl">
-                        <div className="grid grid-cols-2 gap-10">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                             <div className="card py-7 border border-[#262626]">
                                 <div className="card-body bg-[#161616] rounded-3xl text-center w-full flex justify-center items-center">
                                     <p className="card-title text-4xl mb-2">+20</p>
-                                    <p className="text-sm">TOTAL <br /> PROJECTS</p>
+                                    <p className="text-sm">TOTAL <br className="hidden md:block" /> PROJECTS</p>
                                 </div>
                             </div>
                             <div className="card border py-7 border-[#262626]">
@@ -26,14 +26,14 @@ const LastBanner = () => {
 
                 <div className="card pt-0">
                     <a href="#contact" className="card-body bg-[#161616] rounded-3xl">
-                        <div className="grid grid-cols-2">
+                    <img className="w-36 mb-6" src={image} alt="" />
+                        <div className="flex justify-between items-end">
                             <div>
-                                <img className=" rounded-3xl object-cover w-full h-0 md:h-auto md:w-52 mb-10" src={image} alt="" />
-                                <h2 className="text-4xl card-title">Let's</h2>
-                                <h2 className="text-4xl card-title">work <span className="text-sky-700">Together</span></h2>
+                                <h2 className="text-2xl md:text-4xl card-title">Let's works</h2>
+                                <h2 className="text-4xl card-title"><span className="text-sky-700">Together</span></h2>
                             </div>
-                            <div className="flex justify-end">
-                                <TfiAngleDoubleRight className="mt-40 text-3xl mx-10 transition-colors text-[#161616]hover:text-[#fff]"></TfiAngleDoubleRight>
+                            <div >
+                                <TfiAngleDoubleRight className=" text-3xl  transition-colors text-[#161616]hover:text-[#fff]"></TfiAngleDoubleRight>
                             </div>
                         </div>
                     </a>

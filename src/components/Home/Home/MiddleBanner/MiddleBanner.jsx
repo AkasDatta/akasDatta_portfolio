@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import aboutMe from "../../../../assets/icon/medium.png";
 import { HiOutlinePencilAlt } from "react-icons/Hi";
 import { BiCamera } from "react-icons/bi";
@@ -18,17 +19,17 @@ const MiddleBanner = () => {
             <div className="col-span-12 md:col-span-6 lg:col-span-6">
                 <div className="card">
                     <div className="card-body bg-[#161616] rounded-3xl">
-                        <div className="flex gap-12 justify-center">
-                            <div className="card pt-8 text-5xl py-8">
+                        <div className="flex gap-4 md:gap-12 justify-center">
+                            <div className="card pt-8 text-4xl py-12">
                             <HiOutlinePencilAlt></HiOutlinePencilAlt>
                             </div>
-                            <div className="card pt-8 text-5xl">
+                            <div className="card pt-8 text-4xl">
                             <BiCamera></BiCamera>
                             </div>
-                            <div className="card pt-8 text-5xl">
+                            <div className="card pt-8 text-4xl">
                             <FaLaptopCode></FaLaptopCode>
                             </div>
-                            <div className="card pt-8 text-5xl">
+                            <div className="card pt-8 text-4xl">
                             <FaConnectdevelop></FaConnectdevelop>
                             </div>
                         </div>
