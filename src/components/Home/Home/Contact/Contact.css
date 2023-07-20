@@ -7,3 +7,22 @@
     background-color: white;
     color: #272727;
 }
+
+@media (max-width: 400px) {
+    .text-4xl {
+      font-size: 1.0rem;
+    }
+    .text{
+        margin-left: 15px;
+        font-size: 14px;
+    }
+  }
+@media (max-width: 1100px) {
+    .text-4xl {
+      font-size: 1.0rem;
+    }
+    .text{
+        margin-left: 15px;
+        font-size: 14px;
+    }
+  }

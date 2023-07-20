@@ -34,7 +34,7 @@ export const Contact = () => {
                                     <IoMailOutline className=" text-4xl"></IoMailOutline>
                                 </div>
                             </div>
-                            <div className="col-span-3">
+                            <div className="col-span-3 text">
                                 <h5 className="sm:text-sm md:text-md lg:text-lg">MAIL ME</h5>
                                 <p className="font-bold">akasdatta.me@gmail.com</p>
                                 <p className="font-bold">012akasdatta@gmail.com</p>
@@ -42,13 +42,12 @@ export const Contact = () => {
                         </div>
                         <div className="grid grid-cols-5 card-body rounded-3xl">
                             <div className="col-span-1 rounded-3xl flex items-center justify-center">
-                            <div className="p-6 rounded-xl bg-[#161616]">
-                                <FiPhone className="text-4xl sm:mx-10"></FiPhone>
+                                <div className="p-6 rounded-xl bg-[#161616]">
+                                <FiPhone className="text-4xl lg:text-4xl" />
+                                </div>
                             </div>
-
-                            </div>
-                            <div className="col-span-3">
-                                <h5 className="text-lg mb-4">CONTACT ME</h5>
+                            <div className="col-span-3 text">
+                                <h5 className="sm:text-sm md:text-md lg:text-lg mb-2">CONTACT ME</h5>
                                 <p className="font-bold">+880 1810-318499</p>
                             </div>
                         </div>
@@ -58,8 +57,8 @@ export const Contact = () => {
                                     <IoLocationOutline className=" text-4xl"></IoLocationOutline>
                                 </div>
                             </div>
-                            <div className="col-span-3">
-                                <h5 className="text-lg">LOCATION</h5>
+                            <div className="col-span-3 text">
+                                <h5 className="sm:text-sm md:text-md lg:text-lg">LOCATION</h5>
                                 <p className="font-bold">Masterpara, Feni <br /> Bangladesh</p>
                             </div>
                         </div>
