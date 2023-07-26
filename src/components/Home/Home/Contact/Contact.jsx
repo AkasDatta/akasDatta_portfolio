@@ -15,8 +15,10 @@ export const Contact = () => {
     //   'YOUR_SERVICE_ID', 'template_gbflqkb', form.current, 'YOUR_PUBLIC_KEY')
         .then((result) => {
             console.log(result.text);
+            alert("Message sent successfully!");
         }, (error) => {
             console.log(error.text);
+            alert("Message sending failed. Please try again later.");
         });
     };
   
