@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { MdDownloadForOffline } from "react-icons/md";
-import resumePdf from '../../../../assets/AkasDatta_resume.pdf';
+import resumePdf from '../../../../assets/Resume of Akas Datta.pdf';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = resumePdf;
-    link.download = 'akasDatta_resume.pdf';
+    link.download = 'Resume of Akas Datta.pdf';
     link.click();
   };
 
