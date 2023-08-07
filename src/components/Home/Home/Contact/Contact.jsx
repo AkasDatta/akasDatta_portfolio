@@ -24,11 +24,11 @@ export const Contact = () => {
   
     return (
         <div id='contact'>
-            <h5 className="card-title font-bold text-3xl mb-4 p-8">CONTACT INFO</h5>
+            <h5 className="card-title font-bold text-3xl mb-4 px-8 pt-4 md:p-8 lg:p-8">CONTACT INFO</h5>
             <div className="grid grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 gap-4">
-            <div className="card pt-6" data-aos="zoom-in" data-aos-duration="1000">
+            <div className="card pt-0 md:pt-6 lg:pt-6" data-aos="zoom-in" data-aos-duration="1000">
               <div className="card-body rounded-3xl">
-                    <div className="col-span-12 md:col-span-12 lg:col-span-3 pb-7">
+                    <div className="col-span-12 md:col-span-12 lg:col-span-3 pb-3 md:pb-7 lg:pb-7">
                     <div className="card ">
                         <div className="grid grid-cols-5 card-body rounded-3xl">
                             <div className="col-span-1 rounded-3xl flex items-center justify-center">
@@ -69,13 +69,14 @@ export const Contact = () => {
               </div>
             </div>
 
-            <div className="card pt-6 sm:p-10 md:p-10" data-aos="zoom-in" data-aos-duration="1500">
+            <div className="card pt-6 lg:p-10 p-4 md:p-10" >
+            {/* data-aos="zoom-in" data-aos-duration="1500" */}
                 <div className="card-body bg-[#161616] rounded-3xl">
                     <div className="card pt-0">
                         <div className="card-body bg-[#161616] rounded-3xl">
                             <div className='grid grid-cols-4'>
-                                <h1 className="text-4xl card-title col-span-3 text-sky-700">Let's work Together <span className="text-sky-700"></span></h1>
-                                <img className="object-cover rounded-3xl w-full h-auto md:w-56 col-span-1" src={image} alt="" />
+                                <h1 className="sm:text-2xl md:text-4xl lg:text-4xl col-span-3 text-sky-700">Let's work Together <span className="text-sky-700"></span></h1>
+                                <img className="object-cover rounded-3xl w-full h-auto md:w-56 col-span-1 mt-2" src={image} alt="" />
                             </div>
                         </div>
                     </div>

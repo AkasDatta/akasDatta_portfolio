@@ -2,11 +2,11 @@
 const About = () => {
     return (
         <div id="about">
-            <div className="p-8">
+            <div className="p-4 md:p-8 lg:p-8">
             <div className="card">
               <div className="card-body bg-[#161616] rounded-3xl" data-aos="zoom-in" data-aos-duration="1000">
-                <h5 className="card-title text-sky-700 font-bold text-3xl mb-4 px-8">MORE ABOUT ME</h5>
-                <p className="mb-5 px-8 text-white">
+                <h5 className="card-title text-sky-700 font-bold text-3xl mb-4 px-4 md:px-8 lg:px-8">MORE ABOUT ME</h5>
+                <p className="mb-5 px-4 md:px-8 lg:px-8 text-white">
                 As a MERN stack developer, I bring a wealth of expertise in HTML, CSS, Bootstrap, Tailwind, React.js, and JavaScript. With practical experience working with MongoDB, Firebase, and various frontend frameworks, my specialization lies in React.js development. Over the course of my career, I have successfully delivered numerous projects, including multiple e-commerce websites, all of which highlight my proficiency in frontend frameworks and the MERN stack. I am familiar with node.js, jwt, axios, express.js, vercel and various frameworks and languages. I even used them in my project.
                 <br /> <br />
                 Driven by a profound passion for web development, I am eager to contribute my skills and knowledge to your esteemed organization. I firmly believe in the significance of continuous growth, both personally and professionally, and I am committed to staying up-to-date with the latest industry trends and technologies. 
@@ -36,7 +36,6 @@ const About = () => {
                         I am currently pursuing my Bachelor's degree in Computer Science and Engineering at Northern University Bangladesh. Throughout my academic journey, I am dedicated to continuously enhancing my skills and knowledge in advanced web development, exploring new frameworks, and mastering in MERN Stack Development. <br /> <br />
 
                         As part of my studies, I actively engage in hands-on projects where I apply the concepts and techniques learned in class. By working on these projects, I am able to gain practical experience and further develop my skills using various languages and frameworks. In addition, I have gained proficiency in languages like C and Java through my academic coursework. <br /> <br />
-
 
                         I am passionate about staying up-to-date with the latest developments in the field of web development and continually expanding my skill set. By combining my theoretical knowledge with practical experience, I aim to become a proficient and versatile developer capable of tackling complex challenges in the industry.
                     </p>

@@ -44,7 +44,7 @@ const Banner = () => {
 
 
     return (
-      <div className="mt-12">
+      <div className="md:mt-12 lg:mt-12 mt-0">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-8 gap-4">
         {/* <div className="card">
           <div className="card-body">
