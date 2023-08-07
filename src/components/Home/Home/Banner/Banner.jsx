@@ -44,7 +44,7 @@ const Banner = () => {
 
 
     return (
-      <div className="md:mt-12 lg:mt-12 mt-0">
+      <div className="md:mt-6 lg:mt-12 mt-0">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-8 gap-4">
         {/* <div className="card">
           <div className="card-body">
@@ -76,7 +76,7 @@ const Banner = () => {
           <div className="card-body px-0">
             <a
             href="#about"
-            className="flex px-10 pt-5 pb-3 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
+            className="flex px-10 pt-6 pb-3 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
           >
             <img
               className="object-cover w-full h-112 md:h-auto md:w-56 rounded-br-3xl rounded-tl-3xl"

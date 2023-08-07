@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <div className="px-12">
       <header className="inset-x-0 top-0 z-50">
-        <nav className="flex items-center justify-between py-6" aria-label="Global">
+        <nav className="flex items-center justify-between sm:pt-6 md:pt-6 lg:pt-6 sm:pb-0 md:pb-0 lg:pb-6" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="/" className="-m-1.5 p-1.5">
               <h2 className="font-bold text-white text-4xl">Akas Datta</h2>

@@ -70,19 +70,39 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="projects flex gap-10 items-center flex-wrap lg:flex-nowrap lg:flex-row my-10">
+      <div className="projects flex gap-10 items-center flex-wrap flex-col-reverse lg:flex-nowrap lg:flex-row my-10">
       <div className="projectImgs h-96 overflow-hidden">
           <div onMouseEnter={() => scrollToBottom(1)} onMouseLeave={() => resetScroll(1)} className="image-container h-full overflow-y-hidden" ref={bottomEls[1]}>
-            <img className="screen-image object-cover px-4" src={project2} alt="" />
+            <img className="screen-image object-cover px-4 lg:px-0 md:px-0" src={project3} alt="" />
           </div>
         </div>
+        <div className="projectDetails px-8 flex gap-3 flex-col">
+          <h3 className="card-title text-3xl mb-2">CampusGo</h3>
+          <p className="text-sm font-bold mb-0">
+            University Enrollment Portal
+          </p>
+          <p>
+            <b>Technology Used:</b> react.js | tailwind CSS | firebase | express.js | mongodb | dotenv | vercel
+          </p>
+          <p>
+            <b>Description:</b> CampusGo is a University Enrollment Portal website. Users can explore universities, add them to their preferred list, and store the selections in a database sorted by descending order. Additionally, users can view their own added universities and manage them by category.
+          </p>
+          <p className="flex gap-4 text-3xl mt-3">
+            <a href="https://github.com/AkasDatta/CampusGo"><FaGithub></FaGithub></a>
+            <a href="https://github.com/AkasDatta/campusgo-server-side"><FaGithub></FaGithub></a>
+            <a href="https://campusgo-endgame.web.app/"><FaLink></FaLink></a>
+          </p>
+        </div>
+      </div>
+
+      <div className="projects flex gap-10 items-center flex-wrap lg:flex-nowrap lg:flex-row my-10">
         <div className="projectDetails px-8 flex gap-3 flex-col">
           <h3 className="card-title text-3xl mb-2">Foodiee _</h3>
           <p className="text-sm font-bold mb-0">
             Recipe exploration website
           </p>
           <p>
-          <b>Technology Used:</b> react.js | firebase | react-bootstrap | express.js | mongodb
+          <b>Technology Used:</b> react.js | firebase | react-bootstrap | express.js | mongodb | Vercel
           </p>
           <p>
             <b>Description:</b> Foodiee _ is a food-related restaurant website. Where the identity of various chefs and their favourite recipes can be seen by logging in and registering on the website.
@@ -93,29 +113,9 @@ const Projects = () => {
             <a href="https://chef-recipe-hunter-1a993.web.app/"><FaLink></FaLink></a>
           </p>
         </div>
-        
-      </div>
-
-      <div className="projects flex gap-10 items-center flex-wrap flex-col-reverse lg:flex-nowrap lg:flex-row my-10">
-        <div className="projectDetails px-8 flex gap-3 flex-col">
-          <h3 className="card-title text-3xl mb-2">Chakri-Opportunities</h3>
-          <p className="text-sm font-bold mb-0">
-            Dynamic Job Portal
-          </p>
-          <p>
-            react.js | react-bootstrap | React Router | Netlify 
-          </p>
-          <p>
-            <b>Description:</b> Chakri-Opportunities is a type of job site that allows you to find and apply for various types of jobs.
-          </p>
-          <p className="flex gap-4 text-3xl mt-3">
-            <a href="https://github.com/AkasDatta/Chakri-Opportunities"><FaGithub></FaGithub></a>
-            <a href="https://moonlit-trifle-78401a.netlify.app/"><FaLink></FaLink></a>
-          </p>
-        </div>
         <div className="projectImgs h-96 overflow-hidden">
           <div onMouseEnter={() => scrollToBottom(2)} onMouseLeave={() => resetScroll(2)} className="image-container h-full overflow-y-hidden" ref={bottomEls[2]}>
-            <img className="screen-image object-cover px-4" src={project3} alt="" />
+            <img className="screen-image object-cover px-4" src={project2} alt="" />
           </div>
         </div>
       </div>
