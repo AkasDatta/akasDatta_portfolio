@@ -45,7 +45,7 @@ const Projects = () => {
     <div id="projects" className="projectSection mt-12">
       <h1 className="title font-bold text-3xl pt-8 pb-4 px-4">MY LATEST PROJECTS</h1>
 
-      <div className="projects flex gap-10 items-center flex-wrap flex-col-reverse lg:flex-nowrap lg:flex-row my-10">
+      <div className="projects flex gap-10 items-center flex-wrap flex-col-reverse lg:flex-nowrap lg:flex-row my-10" data-aos="zoom-in" data-aos-duration="1000">
         <div className="projectDetails px-8 flex gap-3 flex-col">
           <h3 className="card-title text-3xl mb-2">ToyVerse</h3>
           <p className="text-sm font-bold mb-0">
@@ -70,7 +70,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="projects flex gap-10 items-center flex-wrap flex-col-reverse lg:flex-nowrap lg:flex-row my-10">
+      <div className="projects flex gap-10 items-center flex-wrap flex-col-reverse lg:flex-nowrap lg:flex-row my-10" data-aos="zoom-in" data-aos-duration="500">
       <div className="projectImgs h-96 overflow-hidden">
           <div onMouseEnter={() => scrollToBottom(1)} onMouseLeave={() => resetScroll(1)} className="image-container h-full overflow-y-hidden" ref={bottomEls[1]}>
             <img className="screen-image object-cover px-4 lg:px-0 md:px-0" src={project3} alt="" />
@@ -95,7 +95,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="projects flex gap-10 items-center flex-wrap lg:flex-nowrap lg:flex-row my-10">
+      <div className="projects flex gap-10 items-center flex-wrap lg:flex-nowrap lg:flex-row my-10" data-aos="zoom-in" data-aos-duration="1000">
         <div className="projectDetails px-8 flex gap-3 flex-col">
           <h3 className="card-title text-3xl mb-2">Foodiee _</h3>
           <p className="text-sm font-bold mb-0">

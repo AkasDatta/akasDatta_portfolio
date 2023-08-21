@@ -69,8 +69,7 @@ export const Contact = () => {
               </div>
             </div>
 
-            <div className="card pt-6 lg:p-10 p-4 md:p-10" >
-            {/* data-aos="zoom-in" data-aos-duration="1500" */}
+            <div className="card pt-6 lg:p-10 p-4 md:p-10" data-aos="zoom-in" data-aos-duration="1500" >
                 <div className="card-body bg-[#161616] rounded-3xl">
                     <div className="card pt-0">
                         <div className="card-body bg-[#161616] rounded-3xl">
