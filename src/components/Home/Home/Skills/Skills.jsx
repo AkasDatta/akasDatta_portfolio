@@ -9,7 +9,7 @@ const Skills = () => {
         <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={()=> setCounterOn(false)}>
             <div className="pt-10 md:pt-20 px-8" data-aos="zoom-in" data-aos-duration="1000">
             <h1 className="font-bold text-3xl text-sky-700 ">SKILLS</h1>
-            <div className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-3 lg:grid-cols-5 gap-4">
                 <div className="card pt-6">
                     <div className="card-body bg-[#161616] rounded-3xl text-center">
                         <p>
@@ -58,7 +58,7 @@ const Skills = () => {
                     <div className="card-body bg-[#161616] rounded-3xl text-center">
                         <p>
                             {counterOn && (
-                            <CountUp start={0} end={70} duration={8} delay={0} />
+                            <CountUp start={0} end={80} duration={8} delay={0} />
                             )}%
                             {!counterOn && "0%"}
                         </p>
@@ -69,11 +69,22 @@ const Skills = () => {
                     <div className="card-body bg-[#161616] rounded-3xl text-center">
                         <p>
                             {counterOn && (
-                            <CountUp start={0} end={65} duration={7} delay={0} />
+                            <CountUp start={0} end={70} duration={7} delay={0} />
                             )}%
                             {!counterOn && "0%"}
                         </p>
                         <h5 className="text-center mb-0 font-bold">JAVASCRIPT</h5>
+                    </div>
+                </div>
+                <div className="card pt-6">
+                    <div className="card-body bg-[#161616] rounded-3xl text-center">
+                        <p>
+                            {counterOn && (
+                            <CountUp start={0} end={50} duration={6} delay={0} />
+                            )}%
+                            {!counterOn && "0%"}
+                        </p>
+                        <h5 className="text-center mb-0 font-bold">TYPESCRIPT</h5>
                     </div>
                 </div>
                 <div className="card pt-6">
@@ -91,17 +102,6 @@ const Skills = () => {
                     <div className="card-body bg-[#161616] rounded-3xl text-center">
                         <p>
                             {counterOn && (
-                            <CountUp start={0} end={45} duration={5} delay={0} />
-                            )}%
-                            {!counterOn && "0%"}
-                        </p>
-                        <h5 className="text-center mb-0 font-bold">EXPRESS .JS</h5>
-                    </div>
-                </div>
-                <div className="card pt-6">
-                    <div className="card-body bg-[#161616] rounded-3xl text-center">
-                        <p>
-                            {counterOn && (
                             <CountUp start={0} end={55} duration={6} delay={0} />
                             )}%
                             {!counterOn && "0%"}
@@ -113,11 +113,44 @@ const Skills = () => {
                     <div className="card-body bg-[#161616] rounded-3xl text-center">
                         <p>
                             {counterOn && (
+                            <CountUp start={0} end={30} duration={4} delay={0} />
+                            )}%
+                            {!counterOn && "0%"}
+                        </p>
+                        <h5 className="text-center mb-0 font-bold">NEXT .JS</h5>
+                    </div>
+                </div>
+                <div className="card pt-6">
+                    <div className="card-body bg-[#161616] rounded-3xl text-center">
+                        <p>
+                            {counterOn && (
+                            <CountUp start={0} end={45} duration={5} delay={0} />
+                            )}%
+                            {!counterOn && "0%"}
+                        </p>
+                        <h5 className="text-center mb-0 font-bold">EXPRESS .JS</h5>
+                    </div>
+                </div>
+                <div className="card pt-6">
+                    <div className="card-body bg-[#161616] rounded-3xl text-center">
+                        <p>
+                            {counterOn && (
                             <CountUp start={0} end={85} duration={9} delay={0} />
                             )}%
                             {!counterOn && "0%"}
                         </p>
                         <h5 className="text-center mb-0 font-bold">FIGMA</h5>
+                    </div>
+                </div>
+                <div className="card pt-6">
+                    <div className="card-body bg-[#161616] rounded-3xl text-center">
+                        <p>
+                            {counterOn && (
+                            <CountUp start={0} end={35} duration={4} delay={0} />
+                            )}%
+                            {!counterOn && "0%"}
+                        </p>
+                        <h5 className="text-center mb-0 font-bold">REDUX</h5>
                     </div>
                 </div>
                 <div className="card pt-6">
