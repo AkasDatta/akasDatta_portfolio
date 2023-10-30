@@ -17,11 +17,11 @@ import img12 from "../../../../assets/icon/logomark-orange@2x.png";
 import img13 from "../../../../assets/icon/github-mark-white.png";
 import img14 from "../../../../assets/icon/icons8-jwt-480.png";
 import img15 from "../../../../assets/icon/javascript.png";
-import img16 from "../../../../assets/icon/nodejs.jpeg";
+import img16 from "../../../../assets/icon/typescript.png";
 import img17 from "../../../../assets/icon/npm.png";
 import img18 from "../../../../assets/icon/medium.png";
 import img19 from "../../../../assets/icon/redux.png";
-import img20 from "../../../../assets/icon/typescript.png";
+import img20 from "../../../../assets/icon/nodejs.jpeg";
 import img21 from "../../../../assets/icon/nextjs.png";
 
 import aboutMe from "../../../../assets/Gallery.png";
@@ -159,6 +159,15 @@ const Banner = () => {
               </div>
               <div>
                 <img className="object-cover h-10 w-15 mx-4" src={img17} alt="" />
+              </div>
+              <div>
+                <img className="object-cover h-10 w-15 mx-4" src={img19} alt="" />
+              </div>
+              <div>
+                <img className="object-cover h-10 w-15 mx-4" src={img20} alt="" />
+              </div>
+              <div>
+                <img className="object-cover h-10 w-15 mx-4" src={img21} alt="" />
               </div>
               <div>
                 <img className="object-cover h-10 w-15 mx-4" src={img18} alt="" />
