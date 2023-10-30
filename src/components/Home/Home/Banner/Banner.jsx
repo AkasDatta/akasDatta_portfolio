@@ -22,7 +22,7 @@ import img17 from "../../../../assets/icon/npm.png";
 import img18 from "../../../../assets/icon/medium.png";
 import img19 from "../../../../assets/icon/redux.png";
 import img20 from "../../../../assets/icon/nodejs.jpeg";
-import img21 from "../../../../assets/icon/nextjs.png";
+import img21 from "../../../../assets/icon/next.webp";
 
 import aboutMe from "../../../../assets/Gallery.png";
 import aboutMe2 from "../../../../assets/Gallery2.png";
@@ -161,6 +161,9 @@ const Banner = () => {
                 <img className="object-cover h-10 w-15 mx-4" src={img17} alt="" />
               </div>
               <div>
+                <img className="object-cover h-10 w-15 mx-4" src={img18} alt="" />
+              </div>
+              <div>
                 <img className="object-cover h-10 w-15 mx-4" src={img19} alt="" />
               </div>
               <div>
@@ -168,9 +171,6 @@ const Banner = () => {
               </div>
               <div>
                 <img className="object-cover h-10 w-15 mx-4" src={img21} alt="" />
-              </div>
-              <div>
-                <img className="object-cover h-10 w-15 mx-4" src={img18} alt="" />
               </div>
             </Marquee>
           </div>
