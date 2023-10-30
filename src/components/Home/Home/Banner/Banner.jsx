@@ -20,6 +20,9 @@ import img15 from "../../../../assets/icon/javascript.png";
 import img16 from "../../../../assets/icon/nodejs.jpeg";
 import img17 from "../../../../assets/icon/npm.png";
 import img18 from "../../../../assets/icon/medium.png";
+import img19 from "../../../../assets/icon/redux.png";
+import img20 from "../../../../assets/icon/typescript.png";
+import img21 from "../../../../assets/icon/nextjs.png";
 
 import aboutMe from "../../../../assets/Gallery.png";
 import aboutMe2 from "../../../../assets/Gallery2.png";
