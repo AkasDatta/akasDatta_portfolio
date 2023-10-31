@@ -1,0 +1,22 @@
+.vertical-tabs-container {
+    display: flex;
+  }
+  
+  .vertical-tabs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tab {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #ddd;
+  }
+  
+  .tab-content {
+    padding: 10px;
+  }
+  
