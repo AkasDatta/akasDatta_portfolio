@@ -1,68 +1,33 @@
+import React, { useState } from 'react';
+import './Experience.css'; // Create a CSS file for styling
 
-// const Experience = () => {
-//     return (
-//         <div>
-//             <h5 className="card-title font-bold text-3xl mb-4 px-8 pt-4 md:p-8 lg:p-8">EXPERIENCE</h5>
-//         </div>
-//     );
-// };
+const VerticalTabs = () => {
+  const [activeTab, setActiveTab] = useState(0);
 
-// export default Experience;
-
-import { useState } from "react";
-import {
-  TETabs,
-  TETabsContent,
-  TETabsItem,
-  TETabsPane,
-} from "tw-elements-react";
-
-export default function TabsVertical() {
-  const [verticalActive, setVerticalActive] = useState("tab1");
-
-  const handleVerticalClick = (value) => {
-    if (value === verticalActive) {
-      return;
-    }
-    setVerticalActive(value);
+  const handleTabClick = (index) => {
+    setActiveTab(index);
   };
 
-  return (
-    <div className="flex items-start">
-      <TETabs vertical>
-        <TETabsItem
-          onClick={() => handleVerticalClick("tab1")}
-          active={verticalActive === "tab1"}
-        >
-          Home
-        </TETabsItem>
-        <TETabsItem
-          onClick={() => handleVerticalClick("tab2")}
-          active={verticalActive === "tab2"}
-        >
-          Profile
-        </TETabsItem>
-        <TETabsItem
-          onClick={() => handleVerticalClick("tab3")}
-          active={verticalActive === "tab3"}
-        >
-          Messages
-        </TETabsItem>
-        <TETabsItem
-          onClick={() => handleVerticalClick("tab4")}
-          active={verticalActive === "tab4"}
-          disabled
-        >
-          Contact
-        </TETabsItem>
-      </TETabs>
+  const tabs = ['Tab 1', 'Tab 2', 'Tab 3']; // Add your tab names here
 
-      <TETabsContent>
-        <TETabsPane show={verticalActive === "tab1"}>Tab 1 content</TETabsPane>
-        <TETabsPane show={verticalActive === "tab2"}>Tab 2 content</TETabsPane>
-        <TETabsPane show={verticalActive === "tab3"}>Tab 3 content</TETabsPane>
-        <TETabsPane show={verticalActive === "tab4"}>Tab 4 content</TETabsPane>
-      </TETabsContent>
+  return (
+    <div className="vertical-tabs-container">
+      <div className="vertical-tabs">
+        {tabs.map((tab, index) => (
+          <div
+            key={index}
+            className={`tab ${index === activeTab ? 'active' : ''}`}
+            onClick={() => handleTabClick(index)}
+          >
+            {tab}
+          </div>
+        ))}
+      </div>
+      <div className="tab-content">
+        <div className="content">{tabs[activeTab]} content</div>
+      </div>
     </div>
   );
-}
+};
+
+export default VerticalTabs;
