@@ -50,9 +50,9 @@ const Experience = () => {
             {activeTab !== null && (
               <>
                 <div> 
-                  <h1 className='text-xl md:text-xl lg:text-2xl font-bold text-blue-600'>{tabs[activeTab].position}</h1>
+                  <h1 className='text-xl md:text-xl lg:text-2xl font-bold text-blue-600 mb-2'>{tabs[activeTab].position}</h1>
                 </div>
-                <div>{tabs[activeTab].date}</div>
+                <div><p className='text-sm'>{tabs[activeTab].date}</p></div>
                 <div>{tabs[activeTab].details1}</div>
                 <div>{tabs[activeTab].details2}</div>
                 <div>{tabs[activeTab].details3}</div>
