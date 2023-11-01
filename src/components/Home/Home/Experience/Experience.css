@@ -29,6 +29,10 @@
     color: green;
     background: #161616;
   }
+  .active-line:hover {
+    color: green;
+    background: #161616;
+  }
   
   .tab-content {
     padding: 15px;

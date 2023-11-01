@@ -2,13 +2,24 @@ import { useState } from 'react';
 import './Experience.css';
 
 const Experience = () => {
-  const [activeTab, setActiveTab] = useState(null);
+  const [activeTab, setActiveTab] = useState(0);
 
   const handleTabClick = (index) => {
     setActiveTab(index);
   };
 
-  const tabs = ['MyNadezhda consultancy', 'Desh IT'];
+  const tabs = [
+    {
+      name: 'MyNadezhda consultancy',
+      content: 'Content for MyNadezhda consultancy',
+      h2:'huhu'
+    },
+    {
+      name: 'Desh IT',
+      content: 'Content for Desh IT'
+    }
+    // Add more tabs with their respective content here
+  ];
 
   return (
     <div>
@@ -20,15 +31,22 @@ const Experience = () => {
               key={index}
               className={`tab ${index === activeTab ? 'active' : ''}`}
               onClick={() => handleTabClick(index)}
+              style={{ borderColor: index === activeTab ? 'green' : '' }}
             >
-              {tab}
+              {tab.name}
               {index === activeTab && <hr className="active-line" />}
             </div>
           ))}
         </div>
         <div className={`tab-content ${activeTab !== null ? 'small-devices-content' : ''}`}>
           <div className="content">
-            {activeTab !== null ? tabs[activeTab] + ' content' : 'Select a tab'}
+            {activeTab !== null && (
+              <>
+                <div>Date and Time: {tabs[activeTab].dateTime}</div>
+                <div>{tabs[activeTab].content}</div>
+              </>
+            )}
+            {activeTab === null && 'Select a tab'}
           </div>
         </div>
       </div>
