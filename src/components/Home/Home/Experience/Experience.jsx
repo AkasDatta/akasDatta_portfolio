@@ -11,15 +11,22 @@ const Experience = () => {
   const tabs = [
     {
       name: 'MyNadezhda consultancy',
-      content: 'Content for MyNadezhda consultancy',
-      h2:'huhu'
+      position: 'Frontend Developer', 
+      date: 'September 2023 - Present',
+      details1: '',
+      details2: '',
+      details3: ''
     },
     {
       name: 'Desh IT',
-      content: 'Content for Desh IT'
-    }
-    // Add more tabs with their respective content here
+      position: 'Full Stack Developer(MERN)', 
+      date: 'August 2022 - August 2023',
+      details1: '',
+      details2: '',
+      details3: ''
+    },
   ];
+  
 
   return (
     <div>
@@ -42,8 +49,13 @@ const Experience = () => {
           <div className="content">
             {activeTab !== null && (
               <>
-                <div>Date and Time: {tabs[activeTab].dateTime}</div>
-                <div>{tabs[activeTab].content}</div>
+                <div> 
+                  <h1 className='text-xl md:text-xl lg:text-2xl font-bold text-blue-600'>{tabs[activeTab].position}</h1>
+                </div>
+                <div>{tabs[activeTab].date}</div>
+                <div>{tabs[activeTab].details1}</div>
+                <div>{tabs[activeTab].details2}</div>
+                <div>{tabs[activeTab].details3}</div>
               </>
             )}
             {activeTab === null && 'Select a tab'}
