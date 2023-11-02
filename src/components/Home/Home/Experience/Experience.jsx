@@ -10,7 +10,7 @@ const Experience = () => {
 
   const tabs = [
     {
-      name: 'MyNadezhda consultancy',
+      name: 'MyNadezhda',
       position: 'Frontend Developer', 
       date: 'September 2023 - Present',
       details1: '',
@@ -40,7 +40,7 @@ const Experience = () => {
               onClick={() => handleTabClick(index)}
               style={{ borderColor: index === activeTab ? 'green' : '' }}
             >
-              {tab.name}
+              <h2>{tab.name}</h2>
               {index === activeTab && <hr className="active-line" />}
             </div>
           ))}
