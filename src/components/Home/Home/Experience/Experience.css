@@ -21,12 +21,12 @@
     position: absolute;
     top: 0;
     left: -10px;
-    border: 1px solid green;
+    border: 1px solid #0062ff;
     height: 100%;
   }
   
   .tab.active {
-    color: green;
+    color: #0062ff;
     background: #161616;
   }
   .active-line:hover {
