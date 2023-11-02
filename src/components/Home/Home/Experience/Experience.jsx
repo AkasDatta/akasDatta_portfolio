@@ -13,9 +13,9 @@ const Experience = () => {
       name: 'MyNadezhda',
       position: 'Frontend Developer', 
       date: 'September 2023 - Present',
-      details1: '',
-      details2: '',
-      details3: ''
+      details1: 'Various frontends are responsive design and developed using vanilla JavaScript & RAW CSS.',
+      details2: 'Many game development tasks are done using vanilla JavaScript. It shows designs using figma files and other design software.',
+      details3: 'Provided 24/7 support to the team in resolving issues.'
     },
     {
       name: 'Desh IT',
@@ -41,7 +41,7 @@ const Experience = () => {
               style={{ borderColor: index === activeTab ? 'green' : '' }}
             >
               <h2>{tab.name}</h2>
-              {index === activeTab && <hr className="active-line" />}
+              {index === activeTab && <hr className="active-line"/>}
             </div>
           ))}
         </div>
