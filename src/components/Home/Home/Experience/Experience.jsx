@@ -53,16 +53,16 @@ const Experience = () => {
             {activeTab !== null && (
               <>
                 <div> 
-                  <h1 className='text-xl md:text-xl lg:text-2xl font-bold text-blue-600 mb-2'>{tabs[activeTab].position}</h1>
+                  <h1 className='text-xl md:text-xl lg:text-2xl font-bold text-blue-600'>{tabs[activeTab].position}</h1>
                 </div>
                 <div>
-                  <p className='text-sm'>{tabs[activeTab].date}</p>
+                  <p className='text-sm my-3'>{tabs[activeTab].date}</p>
                 </div>
                 <div>
-                  <h1 className='text-xl md:text-2xl lg:text-2xl font-bold text-green-600 my-2'>{tabs[activeTab].fullName}</h1>
+                  <h1 className='text-xl md:text-2xl lg:text-2xl font-bold text-green-600'>{tabs[activeTab].fullName}</h1>
                 </div>
                 <div>
-                  <div className='flex'>
+                  <div className='flex my-3'>
                     <FaCaretRight className='text-blue-500 mt-1'></FaCaretRight>
                     <h1 className='mx-2'>{tabs[activeTab].details1}</h1>
                   </div>
@@ -70,14 +70,14 @@ const Experience = () => {
                     <FaCaretRight className='text-blue-500 my-1'></FaCaretRight>
                     <h1 className='mx-2'>{tabs[activeTab].details2}</h1>
                   </div>
-                  <div className='flex'>
-                    <FaCaretRight className='text-blue-500 mt-1 pr-2'></FaCaretRight>
+                  <div className='flex mt-3'>
+                    <FaCaretRight className='text-blue-500 mt-1 pr-1'></FaCaretRight>
                     <h1 className='mx-0'>{tabs[activeTab].details3}</h1>
                   </div>
                 </div>
               </>
             )}
-            {activeTab === null && 'Select a tab'}
+            {/* {activeTab === null && 'Select a tab'} */}
           </div>
         </div>
       </div>
