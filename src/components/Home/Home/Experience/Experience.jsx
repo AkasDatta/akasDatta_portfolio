@@ -32,7 +32,7 @@ const Experience = () => {
   
 
   return (
-    <div>
+    <div id='experience'>
       <h5 className="card-title font-bold text-3xl mb-4 px-8 pt-4 md:p-8 lg:p-8">EXPERIENCE</h5>
       <div className="experience-container md:mx-28 lg:mx-44 px-8">
         <div className={`experience-sidebar ${activeTab !== null ? 'small-devices' : ''}`}>

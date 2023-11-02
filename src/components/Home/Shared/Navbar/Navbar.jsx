@@ -8,6 +8,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '#about' },
   { name: 'Projects', href: '#projects' },
+  { name: 'Experience', href: '#experience' },
   { name: 'Contact', href: '#contact' },
 ]
 
@@ -40,9 +41,9 @@ const Navbar = () => {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12 bg-[#0F0F0F]">
+          <div className="hidden lg:flex lg:gap-x-8 bg-[#0F0F0F]">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 text-xl">
+              <a key={item.name} href={item.href} className="font-semibold leading-6 text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 text-xl">
                 {item.name}
               </a>
             ))}
