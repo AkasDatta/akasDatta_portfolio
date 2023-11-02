@@ -21,9 +21,9 @@ const Experience = () => {
       name: 'Desh IT',
       position: 'Full Stack Developer(MERN)', 
       date: 'August 2022 - August 2023',
-      details1: '',
-      details2: '',
-      details3: ''
+      details1: 'Designed and developed e-commerce, blog, and ad-management web apps.',
+      details2: 'Worked as a contributor. Developed functionalities for web apps.',
+      details3: 'Designed responsive websites depending on client requirements.'
     },
   ];
   
