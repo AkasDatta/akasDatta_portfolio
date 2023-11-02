@@ -12,7 +12,7 @@ const Experience = () => {
   const tabs = [
     {
       name: 'MyNadezhda',
-      fullname: 'Mynadezhda Consultancy Services Private Limited',
+      fullName: 'Mynadezhda Consultancy Services Private Limited',
       position: 'Frontend Developer', 
       date: 'September 2023 - Present',
       details1: 'Various frontends are responsive design and developed using vanilla JavaScript & RAW CSS.',
@@ -21,7 +21,7 @@ const Experience = () => {
     },
     {
       name: 'Desh IT',
-      fullname: 'Desh It Training Institute',
+      fullName: 'Desh It Training Institute',
       position: 'Full Stack Developer(MERN)', 
       date: 'August 2022 - August 2023',
       details1: 'Designed and developed e-commerce, blog, and ad-management web apps.',
@@ -59,9 +59,21 @@ const Experience = () => {
                   <p className='text-sm'>{tabs[activeTab].date}</p>
                 </div>
                 <div>
-                  <h1><FaCaretRight className='text-blue-500'></FaCaretRight>{tabs[activeTab].details1}</h1>
-                  <h1><FaCaretRight className='text-blue-500'></FaCaretRight>{tabs[activeTab].details2}</h1>
-                  <h1><FaCaretRight className='text-blue-500'></FaCaretRight>{tabs[activeTab].details3}</h1>
+                  <h1 className='text-xl md:text-2xl lg:text-2xl font-bold text-green-600 my-2'>{tabs[activeTab].fullName}</h1>
+                </div>
+                <div>
+                  <div className='flex'>
+                    <FaCaretRight className='text-blue-500 mt-1'></FaCaretRight>
+                    <h1 className='mx-2'>{tabs[activeTab].details1}</h1>
+                  </div>
+                  <div className='flex'>
+                    <FaCaretRight className='text-blue-500 my-1'></FaCaretRight>
+                    <h1 className='mx-2'>{tabs[activeTab].details2}</h1>
+                  </div>
+                  <div className='flex'>
+                    <FaCaretRight className='text-blue-500 mt-1 pr-2'></FaCaretRight>
+                    <h1 className='mx-0'>{tabs[activeTab].details3}</h1>
+                  </div>
                 </div>
               </>
             )}
