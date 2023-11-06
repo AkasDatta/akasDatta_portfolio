@@ -4,8 +4,8 @@ const Footer = () => {
         <div>
             <footer className="bg-black-800">
                 <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
-                    <div className="flex justify-center text-white font-bold text-xl">
-                        Akas Datta
+                    <div className="flex justify-center text-white font-bold text-3xl">
+                        <a href="/">Akas Datta</a>
                     </div>
 
                     <ul className="mt-6 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12 mx-10">
