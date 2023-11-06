@@ -59,7 +59,7 @@ const Experience = () => {
                   <p className='text-sm my-3'>{tabs[activeTab].date}</p>
                 </div>
                 <div>
-                  <h1 className='text-xl md:text-2xl lg:text-2xl font-bold text-green-600'>{tabs[activeTab].fullName}</h1>
+                  <h1 className='text-xl md:text-2xl lg:text-2xl font-bold text-teal-500'>{tabs[activeTab].fullName}</h1>
                 </div>
                 <div>
                   <div className='flex my-3'>
