@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import profile from "../../../../assets/akas.jpg"
+import profile from "../../../../assets/akas.jpg";
 import Typed from "typed.js";
 import Marquee from "react-fast-marquee";
 import img1 from "../../../../assets/icon/html5.png";
@@ -53,16 +53,16 @@ const Banner = () => {
           <div className="card-body px-0">
             <a
             href="#about"
-            className="flex px-10 pt-6 pb-3 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
+            className="flex px-8 xl:py-16 lg:py-10 py-10 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
           >
             <img
-              className="object-cover w-full h-112 md:h-auto md:w-56 rounded-br-3xl rounded-tl-3xl"
+              className="object-cover w-42 md:h-48 md:w-48 rounded-full"
               src={profile}
               alt=""
             />
-            <div className="flex flex-col justify-between p-4 leading-normal">
-              <h5 className="mb-2 mx-1 tracking-tight text-gray-900 dark:text-gray-300 mt-5">HI, I'm</h5>
-              <h5 className="mb-2 text-5xl font-bold tracking-tight text-gray-600  dark:text-gray-300">
+            <div className="flex flex-col justify-between px-4 leading-normal">
+              <h5 className="mb-2 mx-1 tracking-tight text-gray-900 dark:text-gray-300">HI, I'm</h5>
+              <h5 className="mb-2 text-5xl lg:text-4xl xl:text-4xl font-bold tracking-tight text-white">
                   AKAS DATTA.
               </h5>
               <h5 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white"><span className="autoType" ref={autoTypeRef}></span></h5>
@@ -70,7 +70,7 @@ const Banner = () => {
               based in Feni, Bangladesh. <br />
               <span>I have a strong passion for creating engaging and user-friendly web experiences.</span>
               </p>
-              <a href="#contact" className="card-actions">
+              <a href="#contact" className="card-actions my-2">
                 <button className="btn btn-outline">Hire Me</button>
               </a>
             </div>
@@ -149,11 +149,11 @@ const Banner = () => {
             </Marquee>
           </div>
 
-          <div data-aos="zoom-in" data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div data-aos="zoom-in" data-aos-duration="1000" className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-400">
             <a href="#about" className="card pt-6">
               <div className="card-body bg-[#161616] rounded-3xl">
                 <img className="mb-5" src={aboutMe} alt="" />
-                <h5 className="card-title">MORE ABOUT ME</h5>
+                <h5 className="card-title text-white">MORE ABOUT ME</h5>
                 <p>Credentials</p>
               </div>
             </a>
@@ -161,7 +161,7 @@ const Banner = () => {
             <a href="#projects" className="card pt-6">
               <div className="card-body bg-[#161616] rounded-3xl">
                 <img className="mb-5 rounded-2xl" src={aboutMe2} alt="" />
-                <h5 className="card-title">SHOWCASE</h5>
+                <h5 className="card-title text-white">SHOWCASE</h5>
                 <p>Projects</p>
               </div>
             </a>

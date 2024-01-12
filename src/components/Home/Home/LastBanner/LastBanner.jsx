@@ -10,14 +10,14 @@ const LastBanner = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                             <div className="card py-7 border border-[#262626]">
                                 <div className="card-body bg-[#161616] rounded-3xl text-center w-full flex justify-center items-center">
-                                    <p className="card-title text-4xl mb-2">+20</p>
-                                    <p className="text-sm">TOTAL <br className="hidden md:block" /> PROJECTS</p>
+                                    <p className="card-title text-4xl mb-2 text-gray-400">+20</p>
+                                    <p className="text-sm text-gray-200">TOTAL <br className="hidden md:block" /> PROJECTS</p>
                                 </div>
                             </div>
                             <div className="card border py-7 border-[#262626]">
                                 <div className="card-body bg-[#161616] rounded-3xl text-center w-full flex justify-center items-center">
-                                    <p className="card-title text-4xl mb-2">+0</p>
-                                    <p className="text-sm">CLIENTS <br /> WORLDWIDE</p>
+                                    <p className="card-title text-4xl mb-2 text-gray-400">+0</p>
+                                    <p className="text-sm text-gray-200">CLIENTS <br /> WORLDWIDE</p>
                                 </div>
                             </div>
                         </div>
