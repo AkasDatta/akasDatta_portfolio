@@ -15,7 +15,7 @@ const About = () => {
                 <br /> <br />
                 In summary, I am a frontend MERN stack developer with a strong passion for creating remarkable web experiences. I am excited about the opportunity to be part of your team and contribute to the success of your projects.
                 </p>
-                <div className="card-body py-7 border border-[#262626] rounded-3xl">
+                <div className="card-body py-7 border border-[#262626] rounded-3xl text-gray-300">
                 <h5 className="card-title font-bold mb-4">EDUCATION</h5>
                 <div>
                     <p className="text-xl mb-1">2018 - 2022</p>

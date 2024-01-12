@@ -6,7 +6,7 @@ import { FaLaptopCode, FaConnectdevelop, FaLinkedin, FaInstagram, FaTwitter } fr
 
 const MiddleBanner = () => {
     return (
-        <div data-aos="zoom-in" data-aos-duration="1500" className="grid grid-cols-12 gap-6 px-8">
+        <div data-aos="zoom-in" data-aos-duration="1500" className="grid grid-cols-12 gap-6 px-8 text-gray-400">
             <a href="/blogs" className="col-span-12 md:col-span-6 lg:col-span-3">
                 <div className="card">
                     <div className="card-body bg-[#161616] rounded-3xl">
@@ -19,23 +19,23 @@ const MiddleBanner = () => {
             <div className="col-span-12 md:col-span-6 lg:col-span-6">
                 <div className="card">
                     <div className="card-body bg-[#161616] rounded-3xl">
-                        <div className="flex gap-4 md:gap-12 justify-center">
-                            <div className="card pt-8 text-4xl py-12">
+                        <div className="flex gap-4 md:gap-12 justify-center py-10">
+                            <div className="card text-4xl">
                             <HiOutlinePencilAlt></HiOutlinePencilAlt>
                             </div>
-                            <div className="card pt-8 text-4xl">
+                            <div className="card text-4xl">
                             <BiCamera></BiCamera>
                             </div>
-                            <div className="card pt-8 text-4xl">
+                            <div className="card text-4xl">
                             <FaLaptopCode></FaLaptopCode>
                             </div>
-                            <div className="card pt-8 text-4xl">
+                            <div className="card text-4xl">
                             <FaConnectdevelop></FaConnectdevelop>
                             </div>
                         </div>
-                        <div className="mt-6">
-                            <h5 className="text-sm">SPECIALIZATION</h5>
-                            <h1 className="card-title text-white text-3xl">Services Offering</h1>
+                        <div className="mt-10 lg:mt-6">
+                            <h5 className="text-sm mb-2 lg:mb-1">SPECIALIZATION</h5>
+                            <h1 className="card-title text-white text-2xl">SERVICES OFFERING</h1>
                         </div>
                     </div>
                 </div>
@@ -57,9 +57,9 @@ const MiddleBanner = () => {
                         </div>
 
                         </div>
-                        <div className="mt-6">
-                            <h5 className="text-sm">STAY WITH ME</h5>
-                            <h1 className="card-title text-white text-3xl">Profiles</h1>
+                        <div className="mt-7">
+                            <h5 className="text-sm mb-2 lg:mb-1">STAY WITH ME</h5>
+                            <h1 className="card-title text-white text-2xl">PROFILES</h1>
                         </div>
                     </div>
                 </div>
