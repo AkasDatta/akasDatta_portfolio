@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import profile from "../../../../assets/akas.jpg";
+import profile from "../../../../assets/akasImage.jpg";
 import Typed from "typed.js";
 import Marquee from "react-fast-marquee";
 import img1 from "../../../../assets/icon/html5.png";
