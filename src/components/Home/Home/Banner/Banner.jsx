@@ -61,12 +61,12 @@ const Banner = () => {
               alt=""
             />
             <div className="flex flex-col justify-between px-4 leading-normal">
-              <h5 className="mb-2 mx-1 tracking-tight text-gray-900 dark:text-gray-300">HI, I'm</h5>
+              <h5 className="mb-2 mx-1 tracking-tight text-gray-300">HI, I'm</h5>
               <h5 className="mb-2 text-5xl lg:text-4xl xl:text-4xl font-bold tracking-tight text-white">
                   AKAS DATTA.
               </h5>
-              <h5 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-white"><span className="autoType" ref={autoTypeRef}></span></h5>
-              <p className="mb-3 font-normal text-gray-700 dark:text-gray-300">
+              <h5 className="mb-2 font-bold tracking-tight text-white"><span className="autoType" ref={autoTypeRef}></span></h5>
+              <p className="mb-3 font-normal text-gray-300">
               based in Feni, Bangladesh. <br />
               <span>I have a strong passion for creating engaging and user-friendly web experiences.</span>
               </p>

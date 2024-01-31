@@ -29,7 +29,7 @@ const LastBanner = () => {
                     <img className="w-36 mb-6" src={image} alt="" />
                         <div className="flex justify-between items-end">
                             <div>
-                                <h2 className="text-2xl md:text-4xl card-title">Let's works</h2>
+                                <h2 className="text-2xl md:text-4xl card-title text-gray-400">Let's works</h2>
                                 <h2 className="text-4xl card-title"><span className="text-sky-700">Together</span></h2>
                             </div>
                             <div >
