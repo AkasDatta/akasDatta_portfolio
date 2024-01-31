@@ -23,7 +23,7 @@ const Navbar = () => {
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
-    <div className="px-12">
+    <div className="px-12 mt-2">
       <header className="inset-x-0 top-0 z-50">
         <nav className="flex items-center justify-between sm:pt-6 md:pt-6 lg:pt-6 sm:pb-0 md:pb-0 lg:pb-6" aria-label="Global">
           <div className="flex lg:flex-1">
@@ -34,7 +34,7 @@ const Navbar = () => {
           <div className="flex lg:hidden">
             <button
               type="button"
-              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-300"
+              className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-white"
               onClick={() => setMobileMenuOpen(true)}
             >
               <span className="sr-only">Open main menu</span>
@@ -43,13 +43,13 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:flex lg:gap-x-8 bg-[#0F0F0F]">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="font-semibold leading-6 text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 text-xl">
+              <a key={item.name} href={item.href} className="font-semibold leading-6  transition text-white hover:text-white/75 text-xl">
                 {item.name}
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <button onClick={handleDownload} className="text-sm font-semibold leading-6 text-gray-300 btn btn-outline rounded-lg px-10">
+          <button onClick={handleDownload} className="text-sm font-semibold leading-6 text-white btn btn-outline rounded-lg px-10">
             Resume <MdDownloadForOffline/>
           </button>
 
@@ -57,14 +57,14 @@ const Navbar = () => {
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
           <div className="fixed inset-0 z-50" />
-          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-black text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-black text-white px-6 py-6 sm:max-w-sm">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                
               </a>
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-gray-300"
+                className="-m-2.5 rounded-md p-2.5 text-white"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
@@ -78,14 +78,14 @@ const Navbar = () => {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75 hover:bg-gray-900"
+                      className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 transition text-white hover:text-white/75 hover:bg-[#272727]"
                     >
                       {item.name}
                     </a>
                   ))}
                 </div>
                 <div className="py-6">
-                    <button onClick={handleDownload} className="text-sm font-semibold leading-6 text-gray-300 btn btn-outline rounded-lg px-10">
+                    <button onClick={handleDownload} className="text-sm font-semibold leading-6 text-white btn btn-outline rounded-lg px-10">
                     Resume <MdDownloadForOffline/>
                   </button>
                 </div>
