@@ -11,7 +11,7 @@ const Footer = () => {
                     <ul className="mt-6 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12 mx-10">
                         <li>
                             <a
-                            className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                            className=" text-white hover:text-white/75 transition"
                             href="/"
                             >
                             Home
@@ -20,7 +20,7 @@ const Footer = () => {
 
                         <li>
                             <a
-                            className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                            className=" text-white hover:text-white/75 transition"
                             href="#about"
                             >
                             About
@@ -29,7 +29,7 @@ const Footer = () => {
 
                         <li>
                             <a
-                            className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                            className=" text-white hover:text-white/75 transition"
                             href="#projects"
                             >
                             Projects
@@ -38,7 +38,7 @@ const Footer = () => {
 
                         <li>
                             <a
-                            className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                            className=" text-white hover:text-white/75 transition"
                             href="#experience"
                             >
                             Experience
@@ -47,14 +47,14 @@ const Footer = () => {
 
                         <li>
                             <a
-                            className="text-gray-700 transition hover:text-gray-700/75 dark:text-white dark:hover:text-white/75"
+                            className=" text-white hover:text-white/75 transition"
                             href="#contact"
                             >
                             Contact
                             </a>
                         </li>
                     </ul>
-                    <p className="flex justify-center mt-6">© Inspired by <a className="mx-1 text-teal-500" href="https://wpriverthemes.com/gridx/" target="_blank" rel="noopener noreferrer">GridX</a></p>
+                    <p className="flex justify-center text-[#bdbcbc] mt-6">© Inspired by <a className="mx-1 text-teal-500" href="https://wpriverthemes.com/gridx/" target="_blank" rel="noopener noreferrer">GridX</a></p>
                 </div>
             </footer>
         </div>

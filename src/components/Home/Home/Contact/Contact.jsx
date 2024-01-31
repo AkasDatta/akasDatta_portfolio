@@ -1,6 +1,6 @@
 import { IoMailOutline, IoLocationOutline } from 'react-icons/io5';
 import { FiPhone } from 'react-icons/fi';
-import image from "../../../../assets/image.png";
+import image from "../../../../assets/image1.png";
 import './Contact.css';
 import emailjs from '@emailjs/browser';
 import { useRef } from 'react';
@@ -30,36 +30,36 @@ export const Contact = () => {
               <div className="card-body rounded-3xl">
                     <div className="col-span-12 md:col-span-12 lg:col-span-3 pb-3 md:pb-7 lg:pb-7">
                     <div className="card ">
-                        <div className="grid grid-cols-5 card-body rounded-3xl">
+                        <div className="grid grid-cols-5  rounded-3xl">
                             <div className="col-span-1 rounded-3xl flex items-center justify-center">
-                                <div className="p-6 rounded-xl  bg-[#161616]">
-                                    <IoMailOutline className=" text-4xl"></IoMailOutline>
+                                <div className="p-6 rounded-xl bg-[#161616]">
+                                    <IoMailOutline className="text-4xl text-gray-400"></IoMailOutline>
                                 </div>
                             </div>
-                            <div className="col-span-3 text">
+                            <div className="col-span-3 text-gray-300 mx-4 md:mx-0 lg:mx-4">
                                 <h5 className="sm:text-sm md:text-md lg:text-lg">MAIL ME</h5>
                                 <p className="font-bold">akasdatta.me@gmail.com</p>
                                 <p className="font-bold">012akasdatta@gmail.com</p>
                             </div>
                         </div>
-                        <div className="grid grid-cols-5 card-body rounded-3xl">
+                        <div className="grid grid-cols-5  rounded-3xl my-6">
                             <div className="col-span-1 rounded-3xl flex items-center justify-center">
                                 <div className="p-6 rounded-xl bg-[#161616]">
-                                <FiPhone className="text-4xl lg:text-4xl" />
+                                <FiPhone className="text-4xl text-gray-400" />
                                 </div>
                             </div>
-                            <div className="col-span-3 text">
+                            <div className="col-span-3 text-gray-300 mx-4 md:mx-0 lg:mx-4">
                                 <h5 className="sm:text-sm md:text-md lg:text-lg mb-2">CONTACT ME</h5>
                                 <p className="font-bold">+880 1810-318499</p>
                             </div>
                         </div>
-                        <div className="grid grid-cols-5 card-body rounded-3xl">
+                        <div className="grid grid-cols-5 rounded-3xl">
                             <div className="col-span-1 rounded-3xl flex items-center justify-center">
                                 <div className="p-6 rounded-xl  bg-[#161616]">
-                                    <IoLocationOutline className=" text-4xl"></IoLocationOutline>
+                                    <IoLocationOutline className=" text-4xl text-gray-400"></IoLocationOutline>
                                 </div>
                             </div>
-                            <div className="col-span-3 text">
+                            <div className="col-span-3 text-gray-300 mx-4 md:mx-0 lg:mx-4">
                                 <h5 className="sm:text-sm md:text-md lg:text-lg">LOCATION</h5>
                                 <p className="font-bold">Masterpara, Feni <br /> Bangladesh</p>
                             </div>
@@ -72,10 +72,10 @@ export const Contact = () => {
             <div className="card pt-6 lg:p-10 p-4 md:p-10" data-aos="zoom-in" data-aos-duration="1500" >
                 <div className="card-body bg-[#161616] rounded-3xl">
                     <div className="card pt-0">
-                        <div className="card-body bg-[#161616] rounded-3xl">
+                        <div className="m-2 bg-[#161616] rounded-3xl">
                             <div className='grid grid-cols-4'>
-                                <h1 className="sm:text-2xl md:text-4xl lg:text-4xl col-span-3 text-sky-700">Let's work Together <span className="text-sky-700"></span></h1>
-                                <img className="object-cover rounded-3xl w-full h-auto md:w-56 col-span-1 mt-2" src={image} alt="" />
+                                <h1 className="sm:text-2xl md:text-4xl lg:text-4xl col-span-3 text-sky-700 mt-1 xl:mt-7 lg:mt-0 md:mt-7 ">Let's work Together <span className="text-sky-700"></span></h1>
+                                <img className="object-cover rounded-3xl w-8 md:w-24 col-span-1 mt-2" src={image} alt="" />
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@ export const Contact = () => {
                         </div>
                         <div>
                             <textarea
-                            className="w-full rounded-lg input-bordered bg-gradient-to-r from-[#2A2A2A] to-[#191919] p-4"
+                            className="w-full rounded-lg bg-gradient-to-r from-[#2A2A2A] to-[#191919] p-4 textarea textarea-ghost"
                             name="message"
                             placeholder="Your Message *"
                             rows="4"
