@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { MdDownloadForOffline } from "react-icons/md";
-import resumePdf from '../../../../assets/Resume Of Akas Datta';
+import resumePdf from '../../../../assets/Resume of Akas Datta.pdf';
 
 const navigation = [
   { name: 'Home', href: '/' },
