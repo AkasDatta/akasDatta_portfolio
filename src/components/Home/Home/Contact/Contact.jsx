@@ -81,10 +81,10 @@ export const Contact = () => {
                     </div>
                     <form className="card" ref={form} onSubmit={sendEmail}>
                         <div className="form-control py-5">
-                            <input type="text" name="name" placeholder="Name *" className="input input-bordered bg-gradient-to-r text-white from-[#2A2A2A] to-[#191919]" />
+                            <input type="text" name=" {{from_name}}" placeholder="Name *" className="input input-bordered bg-gradient-to-r text-white from-[#2A2A2A] to-[#191919]" />
                         </div>
                         <div className="form-control pb-5">
-                            <input type="email" name="email" placeholder="Email *" className="input input-bordered text-white bg-gradient-to-r from-[#2A2A2A] to-[#191919]" />
+                            <input type="email" name="email_id" placeholder="Email *" className="input input-bordered text-white bg-gradient-to-r from-[#2A2A2A] to-[#191919]" />
                         </div>
                         <div>
                             <textarea
@@ -95,7 +95,7 @@ export const Contact = () => {
                             ></textarea>
                         </div>
                         <div className="form-control pt-3">
-                            <button type="submit" className="btn btn-active">Send Message</button>
+                            <button type="submit" value="send" className="btn btn-active">Send Message</button>
                         </div>
                     </form>
                 </div>
