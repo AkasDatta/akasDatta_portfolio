@@ -1,9 +1,11 @@
-import React from 'react';
 
 const GoToTop = () => {
+    const goToBtn = () => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }
     return (
         <div>
-            <h2>dd</h2>
+            <button className='top-btn' onClick={goToBtn}></button>
         </div>
     );
 };
