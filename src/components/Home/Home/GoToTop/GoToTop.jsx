@@ -5,7 +5,8 @@ const GoToTop = () => {
     }
     return (
         <div>
-            <button className='top-btn' onClick={goToBtn}></button>
+            <button className='top-btn' onClick={goToBtn}> ttt</button>
+           
         </div>
     );
 };

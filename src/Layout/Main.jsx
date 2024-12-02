@@ -2,6 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../components/Home/Shared/Navbar/Navbar";
 import Footer from "../components/Home/Shared/Footer/Footer";
 import { useEffect, useState } from "react";
+import GoToTop from "../components/Home/Home/GoToTop/GoToTop";
 
 const Main = () => {
     const [isVisible, setIsVisible] = useState(true);
@@ -20,6 +21,7 @@ const Main = () => {
                 </div> : <div>
                         <Navbar></Navbar>
                         <Outlet></Outlet>
+                        <GoToTop></GoToTop>
                         <Footer></Footer>
                 </div> }
             </div>
