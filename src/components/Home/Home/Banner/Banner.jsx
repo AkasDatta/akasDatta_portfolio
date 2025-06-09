@@ -47,7 +47,7 @@ const Banner = () => {
 
 
     return (
-      <div className="md:mt-6 lg:mt-12 mt-0">
+      <div className="md:mt-2 lg:mt-6 mt-0">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-8 gap-4">
         <div data-aos="zoom-in" data-aos-duration="1000" className="card">
           <div className="card-body px-0">
@@ -56,10 +56,11 @@ const Banner = () => {
             className="flex px-8 xl:py-16 lg:py-10 py-10 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
           >
             <img
-              className="object-cover w-42 md:h-48 md:w-48 rounded-full"
+              className="hidden xl:block lg:hidden md:block object-cover w-48 h-48 rounded-full"
               src={profile}
-              alt=""
+              alt="Profile"
             />
+
             <div className="flex flex-col justify-between px-4 leading-normal">
               <h5 className="mb-2 mx-1 tracking-tight text-gray-300">HI, I'm</h5>
               <h5 className="mb-2 text-5xl lg:text-4xl xl:text-4xl font-bold tracking-tight text-white">
