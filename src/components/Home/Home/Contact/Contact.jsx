@@ -37,9 +37,8 @@ export const Contact = () => {
                                 </div>
                             </div>
                             <div className="col-span-3 text-gray-300 mx-4 md:mx-0 lg:mx-4">
-                                <h5 className="sm:text-sm md:text-md lg:text-lg">MAIL ME</h5>
+                                <h5 className="sm:text-sm md:text-md lg:text-lg">MAIL</h5>
                                 <p className="font-bold">akasdatta.me@gmail.com</p>
-                                <p className="font-bold">012akasdatta@gmail.com</p>
                             </div>
                         </div>
                         <div className="grid grid-cols-5  rounded-3xl my-6">
