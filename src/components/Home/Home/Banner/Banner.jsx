@@ -48,12 +48,12 @@ const Banner = () => {
 
     return (
       <div className="md:mt-2 lg:mt-6 mt-0">
-        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-8 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 px-8 gap-0 lg:gap-4 ">
         <div data-aos="zoom-in" data-aos-duration="1000" className="card">
           <div className="card-body px-0">
             <a
             href="#about"
-            className="flex px-8 xl:py-16 lg:py-10 py-10 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
+            className="flex px-8 xl:py-16 lg:py-20 py-10 flex-col items-center rounded-3xl shadow md:flex-row dark:border-gray-950 bg-[#161616]"
           >
             <img
               className="hidden xl:block lg:hidden md:block object-cover w-48 h-48 rounded-full"

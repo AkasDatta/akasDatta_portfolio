@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import project1 from "../../../../assets/project1.png";
-import project2 from "../../../../assets/project2.png";
-import project3 from "../../../../assets/project3.png";
+import project2 from "../../../../assets/project2.jpg";
+import project3 from "../../../../assets/project3.jpg";
 import './Projects.css';
 import { FaGithub, FaLink } from 'react-icons/fa';
 
