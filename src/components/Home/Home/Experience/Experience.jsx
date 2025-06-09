@@ -11,23 +11,23 @@ const Experience = () => {
 
   const tabs = [
     {
-      name: 'MyNadezhda',
-      fullName: 'Mynadezhda Consultancy Services Private Limited',
-      position: 'Frontend Developer', 
-      date: 'September 2023 - Present',
-      details1: 'Various frontends are responsive design and developed using vanilla JavaScript & RAW CSS.',
+      name: 'STONKS',
+      fullName: 'STONKS Company SARL',
+      position: 'Frontend Web Developer', 
+      date: 'April 2025 - Present',
+      details1: 'Various frontends are responsive design and developed using vanilla JavaScript & CSS.',
       details2: 'Many game development tasks are done using vanilla JavaScript. It shows designs using figma files and other design software.',
       details3: 'Provided 24/7 support to the team in resolving issues.'
     },
     {
-      name: 'Desh IT',
-      fullName: 'Desh It Training Institute',
-      position: 'Full Stack Developer(MERN)', 
-      date: 'August 2022 - August 2023',
+      name: 'MyNadezhda',
+      fullName: 'Mynadezhda Consultancy Services Private Limited',
+      position: 'Web Application Developer', 
+      date: 'September 2023 - August 2024',
       details1: 'Designed and developed e-commerce, blog, and ad-management web apps.',
       details2: 'Worked as a contributor. Developed functionalities for web apps.',
       details3: 'Designed responsive websites depending on client requirements.'
-    },
+    }
   ];
   
 
