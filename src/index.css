@@ -5,6 +5,7 @@
 
 :root {
   background: #0F0F0F;
+  scroll-behavior: smooth;
 }
 
 /* :root {
